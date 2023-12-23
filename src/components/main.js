@@ -57,7 +57,7 @@ useEffect(() => {
             <option value="pluto">Pluto</option>
         </select>
         <input type='number' placeholder='weight in kilogram(kgs)' value={inputValue} onChange={handleInputChange}></input>
-        <p> You weight on planet {selectedOption} is {result}</p>
+        <p> You weight on planet {selectedOption} is {result}kgs or ~{result * 2.205}pounds</p>
         </div>
     )}
 export default Main;
