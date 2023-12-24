@@ -1,13 +1,16 @@
+import { useEffect, useState } from 'react';
 import './App.css';
 import Main from './components/main';
 import Navbar from './components/navbar';
-import Sidebar from './components/sidebar';
 
-function App() {
+
+const App = ()=> {
+  const [value , setValue] = useState('')
+
+ 
   return (
     <div className='Background'>
       <Navbar/>
-      <Sidebar />
       <Main />
         </div>
     

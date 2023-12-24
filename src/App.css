@@ -3,7 +3,7 @@
   font-family: 'Poppins';
 }
 .Background{
-  background-image: url(back.jpg);
+  background-image: url(images/back.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -31,7 +31,7 @@
   font-size: 200% ;
   resize: none;
   width: 97%;
-  height: 24%;
+  height: 45%;
   font-size: 250%;
 }
 .centralbox > input{
@@ -59,10 +59,73 @@
 
  */
 .sidebar{
-  border: 2px solid black;
+  background-image: linear-gradient(90deg , rgba(148, 0, 211, 0.4) , rgba(64, 64, 64 ,0.4));
+  border: 3px solid black;
   position: absolute;
   width: 20%;
-  height: 85%;
-  top: 15%;
+  height: 80%;
+  top: 18%;
   left: 0%;
+  border-radius: 10px;
+  opacity: 0.8;
+  overflow: auto;
+  
+}
+.sidebar > button{
+  width: 70%;
+  height: 30%;
+  margin-left: 15%;
+  margin-bottom: 10%;
+  border: 1px solid blue;
+  color: white;
+}
+#Mercury{
+  background-image: url(images/Mercury.jpg);
+  background-position: center;
+  background-size:contain;
+}
+#Venus{
+  background-image: url(images/Venus.jpg);
+  background-position: center;
+  background-size:contain;
+}
+#Earth{
+  background-image: url(images/Earth.jpg);
+  background-position: center;
+  background-size:contain;
+}
+#Mars{
+  background-image: url(images/Mars.jpg);
+  background-position: center;
+  background-size:contain;
+}
+#Jupiter{
+  background-image: url(images/Jupiter.jpg);
+  background-position: center;
+  background-size:contain;
+}
+#Saturn{
+  background-image: url(images/Saturn.jpg);
+  background-position: center;
+  background-size:contain;
+}
+#Uranus{
+  background-image: url(images/Uranus.jpg);
+  background-position: center;
+  background-size:contain;
+}
+#Neptune{
+  background-image: url(images/Neptune.jpg);
+  background-position: center;
+  background-size:contain;
+}
+#Pluto{
+  background-image: url(images/Pluto.jpg);
+  background-position: center;
+  background-size:contain;
+}
+#Moon{
+  background-image: url(images/Moon.jpg);
+  background-position: center;
+  background-size:contain;
 }
