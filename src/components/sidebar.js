@@ -1,7 +1,7 @@
 import '../App.css'
 
 const Sidebar = ({ handleButtonClick }) => {
-    const planetOptions = ['Moon' , 'Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune', 'Pluto'];
+    const planetOptions = ['Moon' , 'Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune', 'Pluto' , 'Eris' , 'Haumea' , 'MakeMake' , 'Ceres'];
   
     return (
       <div className='sidebar'>

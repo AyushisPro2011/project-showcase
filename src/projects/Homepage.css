@@ -1,0 +1,38 @@
+#homepage{
+    background-image: url(../images/codeback.png.jpg);
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    height: 100vh;
+  }
+  #homepage > #intro_text{
+    color: violet;
+    opacity: 1.0;
+    width: 50%;
+    margin: 1%;
+    background-image: linear-gradient(90deg , rgba(236,236,10,0.5) ,rgba(0,0,0,0.5) );
+  }
+  #homepage > #intro_text > #start{
+    font-size: 400%;
+    text-align: center;
+    font-style: italic;
+  }
+  #homepage > #intro_text > #main{
+    font-style: italic;
+    font-size: 200%;
+    color: white;
+  
+  }
+  #homepage > #projects{
+    border: 2px solid white;
+    overflow: auto;
+    width: 35%;
+    height: 75vh;
+    position: absolute;
+    left: 60%;
+    top: 18%;
+    padding: 1%;
+    background-image: linear-gradient(90deg , rgba(236,236,10,0.5) ,rgba(0,0,0,0.5));
+  }
+
+  
