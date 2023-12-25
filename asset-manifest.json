@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/React-Projects/static/css/main.4b1f3974.css",
+    "main.js": "/React-Projects/static/js/main.4d453b36.js",
+    "static/js/787.ed7593ed.chunk.js": "/React-Projects/static/js/787.ed7593ed.chunk.js",
+    "static/media/Pro2.png": "/React-Projects/static/media/Pro2.9d6d35cb2900a7cab0ea.png",
+    "static/media/Earth.jpg": "/React-Projects/static/media/Earth.38a796973cc05f9f6934.jpg",
+    "static/media/Venus.jpg": "/React-Projects/static/media/Venus.7bc07d1ebcae217aa637.jpg",
+    "static/media/MakeMake.jpg": "/React-Projects/static/media/MakeMake.7f34e3a00125ac5eefe6.jpg",
+    "static/media/Saturn.jpg": "/React-Projects/static/media/Saturn.d35a0a8d64102b635d2c.jpg",
+    "static/media/Uranus.jpg": "/React-Projects/static/media/Uranus.9522fc70434bb2fc67bc.jpg",
+    "static/media/Eris.jpg": "/React-Projects/static/media/Eris.f363e3341370fd7fc17a.jpg",
+    "static/media/Ceres.jpg": "/React-Projects/static/media/Ceres.1cf05923bcba1ac29d17.jpg",
+    "static/media/Pluto.jpg": "/React-Projects/static/media/Pluto.e98841be252741f9a5aa.jpg",
+    "static/media/back.jpg": "/React-Projects/static/media/back.a79b6203c3801c94cc0b.jpg",
+    "static/media/Mercury.jpg": "/React-Projects/static/media/Mercury.fc7f978d7976f6aa3fec.jpg",
+    "static/media/Jupiter.jpg": "/React-Projects/static/media/Jupiter.83b7509305500292014f.jpg",
+    "static/media/Mars.jpg": "/React-Projects/static/media/Mars.1d6db893aa5b29486172.jpg",
+    "static/media/codeback.png.jpg": "/React-Projects/static/media/codeback.png.033fb09491b0da5cf984.jpg",
+    "static/media/Moon.jpg": "/React-Projects/static/media/Moon.0ec21d651596f6a24fd0.jpg",
+    "static/media/Haumea.jpg": "/React-Projects/static/media/Haumea.cc4235c6f5a1199d6f27.jpg",
+    "static/media/Neptune.jpg": "/React-Projects/static/media/Neptune.92326579dfadb64b09cc.jpg",
+    "index.html": "/React-Projects/index.html",
+    "main.4b1f3974.css.map": "/React-Projects/static/css/main.4b1f3974.css.map",
+    "main.4d453b36.js.map": "/React-Projects/static/js/main.4d453b36.js.map",
+    "787.ed7593ed.chunk.js.map": "/React-Projects/static/js/787.ed7593ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b1f3974.css",
+    "static/js/main.4d453b36.js"
+  ]
+}
