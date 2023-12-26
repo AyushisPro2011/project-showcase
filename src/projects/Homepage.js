@@ -22,6 +22,11 @@ const Homepage = () =>{
             <Link to="Pro"><img src={Pro2logo} style={{width : "90%", height : "40%" , border : "2px solid white" , borderRadius : "5px"}} alt="Project2"></img>
             </Link>
             </div>
+            <div id="Pro2">
+            <h2 style={{color : "white"}}>Project 2: Files Renderer</h2>
+            <Link to="File-Reader"><img src={Pro2logo} style={{width : "90%", height : "40%" , border : "2px solid white" , borderRadius : "5px"}} alt="Project2"></img>
+            </Link>
+            </div>
         </div>
         
         </div>
