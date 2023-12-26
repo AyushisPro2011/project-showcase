@@ -1,5 +1,5 @@
-import '../App.css'
-import Sidebar from './sidebar';
+import './Pro.css'
+import Sidebar from '../../components/sidebar';
 import { useState  , useEffect} from 'react';
 const Main = () => {
     const [selectedOption, setSelectedOption] = useState('______'); // State to track selected option

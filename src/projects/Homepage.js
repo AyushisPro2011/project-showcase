@@ -1,6 +1,6 @@
 import Navbar from "../components/navbar";
 import Pro2logo from '../images/Pro2.png';
-// import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 import './Homepage.css'
@@ -19,8 +19,8 @@ const Homepage = () =>{
             <h2 style={{color: "green" , textAlign : "center" ,  fontSize : "200%" , textDecoration : "underline"}}>My Projects</h2>
             <div id="Pro1">
             <h2 style={{color : "white"}}>Project 1: Your Weight on Other Planets</h2>
-            <a href="#/Pro"><img src={Pro2logo} style={{width : "90%", height : "40%" , border : "2px solid white" , borderRadius : "5px"}} alt="Project2"></img>
-            </a>
+            <Link to="Pro"><img src={Pro2logo} style={{width : "90%", height : "40%" , border : "2px solid white" , borderRadius : "5px"}} alt="Project2"></img>
+            </Link>
             </div>
         </div>
         

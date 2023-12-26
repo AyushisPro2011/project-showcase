@@ -1,6 +1,6 @@
-import '../App.css';
-import Main from '../components/main';
-import Navbar from '../components/navbar';
+import './Pro.css';
+import Main from './main';
+import Navbar from '../../components/navbar';
 const Pro1 = () =>{
     return(
     <div className='Background'>

@@ -1,6 +1,7 @@
 import './App.css';
-import Pro1 from './projects/Pro1'
+import Pro1 from './projects/weight-calculator/Pro1'
 import Homepage from './projects/Homepage';
+import Multi_page from './projects/Multi-page/Multi-page';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 
 
