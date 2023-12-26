@@ -1,18 +1,18 @@
 import './App.css';
 import Pro1 from './projects/Pro1'
 import Homepage from './projects/Homepage';
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 
 
 function App(){
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
     <Route path='/' element = {<Homepage/>}/>
     <Route path='/Pro' element = {<Pro1/>}/>
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
     
     </>
   );
