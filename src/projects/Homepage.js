@@ -10,10 +10,12 @@ const Homepage = () =>{
         <div id="homepage">
         <Navbar Text={"Homepage Of Collection"}/>
         <div id="intro_text">
-        <p id="start">Hi , I am Ayush Gupta,</p>
-        <br></br>
-        <p id="main"> A beginner in front-end devlopment. These projects are made using React and simple client-side Scripting and my motive of creating these projects is to learn UI/UX design and react to build webpages.</p>
-        
+        <p id="start">Hi , I am Ayush Gupta,
+        <br/>   
+        <div id="text">
+        A beginner in front-end devlopment. These projects are made using React and simple client-side Scripting and my motive of creating these projects is to learn UI/UX design and react to build webpages.
+        </div>  
+        </p>
         </div>
         <div id = "projects"> 
             <h2 style={{color: "green" , textAlign : "center" ,  fontSize : "200%" , textDecoration : "underline"}}>My Projects</h2>
