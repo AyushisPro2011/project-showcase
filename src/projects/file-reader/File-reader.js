@@ -1,60 +1,78 @@
+import { useState } from 'react';
+import Navbar from '../../components/navbar';
 import './File-Reader.css'
-import path from 'path-browserify'
-import { useState } from 'react'
-import Navbar from '../../components/navbar'
-const FileRead = () =>{
-    const [content , setcontent] = useState('Not selected')
-    
-    //rendering logic
-    const render = (event) =>{
-        const file = event.target.files[0]
-        const reader = new FileReader();
-        if (file){
-        
-        //image rendering
-            if(path.parse(reader.result).ext === ".jpg" || ".png"||".jpeg" ||".gif" || ".svg" || ".bmp" || "webp" || ".ico" || ".tiff" || ".tif"){
-            reader.onloadend = () =>{setcontent(
-            <img src={reader.result} style={{maxWidth : "98%" , maxHeight : "95%" , margin : "1%"}}></img>
-        )}
-            reader.readAsDataURL(file)
-    
-        }
 
-        //
-    
-        }
+const FileRead = () => {
+  const [content, setContent] = useState('Not selected');
+
+  const getExtension = (fileName) => {
+    const lastDotIndex = fileName.lastIndexOf('.');
+    if (lastDotIndex === -1) {
+      return ''; // If there's no dot in the file name, return an empty string or handle it differently as per your needs
     }
-    //rendering logic end
-    return(
-       
-       
-       <body>       
-       <Navbar Text={"File Reader"}/>
-       <div id='supported'>
+    return fileName.slice(lastDotIndex + 1).toLowerCase();
+  };
+
+  const render = (event) => {
+    const file = event.target.files[0];
+    const reader = new FileReader();
+
+    if (file && isImage(getExtension(file.name))) {
+      reader.onloadend = () => {
+        setContent(<img src={reader.result} style={{ maxWidth: '98%', maxHeight: '95%', margin: '1%' }} alt="Uploaded" />);
+      };
+
+      reader.readAsDataURL(file);
+    }
+    else if(file && isHtml(getExtension(file.name))) {
+        reader.onloadend = function(event) {
+            setContent(event.target.result)
+        }
+    reader.readAsText(file)
+    }
+    else{
+      setContent("Unsupported File Extension")
+    }
+  };
+  const isHtml = (ext) => {return ["html" , "htm" , "txt"].includes(ext)}
+  const isImage = (extension) => {
+    return ["jpg", "jpeg", "png", "gif", "svg", "bmp", "webp", "ico", "tiff", "tif"].includes(extension);
+  };
+
+  return (
+    <body>
+      <Navbar Text={"File Reader"} />
+      <div id='supported'>
         <ul>
-        <li>Images
+          <li style={{color : "yellow"}}>Images
             <ol>
-            <li>JPEG/JPG (.jpg, .jpeg)</li>
-            <li>PNG</li>
-            <li>GIF (.gif)</li>
-            <li> SVG (.svg)</li>
-            <li>BMP (.bmp)</li>
-            <li>WebP (.webp)</li>
-            <li>ICO (.ico)</li>
-            <li>TIFF (.tiff, .tif)</li>
+              <li style={{color : "magenta"}}>JPEG/JPG (.jpg, .jpeg)</li>
+              <li style={{color : "magenta"}}>PNG</li>
+              <li style={{color : "magenta"}}>GIF (.gif)</li>
+              <li style={{color : "magenta"}}>SVG (.svg)</li>
+              <li style={{color : "magenta"}}>BMP (.bmp)</li>
+              <li style={{color : "magenta"}}>WebP (.webp)</li>
+              <li style={{color : "magenta"}}>ICON (.ico)</li>
             </ol>
-            </li>
-            
-        
+          </li>
+          <li style={{color : "yellow"}}>Text
+            <ol>
+            <li style={{color : "magenta"}}>Text</li>
+            <li style={{color : "magenta"}}>HTML</li>
+            <li style={{color : "magenta"}}>HTM</li>
+
+            </ol>
+          </li>
         </ul>
-       </div>
-       <div  id='renderer'>
+      </div>
+      <div id='renderer'>
         <input type='file' onChange={render} id='path'></input>
         <div id='content'>
-        {content}
+          {content}
         </div>
-       </div>
-        </body>
-    )
-}
+      </div>
+    </body>
+  );
+};
+
 export default FileRead;
