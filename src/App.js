@@ -2,7 +2,7 @@ import './App.css';
 import Pro1 from './projects/weight-calculator/Pro1'
 import Homepage from './projects/Homepage';
 import { HashRouter, Route, Routes } from 'react-router-dom';
-import FileRead from './projects/file-reader/File-reader';
+import CSS_GEN from './projects/css-generator/css-gen.js';
 
 
 function App(){
@@ -12,7 +12,7 @@ function App(){
     <Routes>
     <Route path='/' element = {<Homepage/>}/>
     <Route path='/Pro' element = {<Pro1/>}/>
-    <Route path='/File-Reader' element = {<FileRead/>}/>
+    <Route exact path='/css_gen' element = {<CSS_GEN/>}/>
     </Routes>
     </HashRouter>
     

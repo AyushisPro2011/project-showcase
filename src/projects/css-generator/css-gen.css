@@ -1,0 +1,30 @@
+#leftbar{
+    position: absolute;
+    left: 0%;
+    top: 17%;
+    border: 2px solid black;
+    height: 80vh;
+    width: 25%;
+    overflow: auto;
+}
+#rightbar{
+    position: absolute;
+    right: 0%;
+    top: 17%;
+    border: 2px solid black;
+    height: 80vh;
+    width: 25%;
+}
+#text-copy{
+    position: absolute;
+    left: 29%;
+    top: 21%;
+    width: 40%;
+    height: 40vh;
+}
+#example{
+
+}
+#leftbar > ul{
+    
+}
