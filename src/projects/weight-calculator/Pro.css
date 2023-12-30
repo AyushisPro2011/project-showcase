@@ -151,3 +151,28 @@
     background-position: center;
     background-size:cover;
   }
+  #Ganymede-Jupiter{
+    background-image: url(../../images/Ganymede.jpg);
+    background-position: center;
+    background-size:cover;
+  }
+  #Titan-Saturn{
+    background-image: url(../../images/Titan.jpg);
+    background-position: center;
+    background-size:cover;
+  }
+  #Io-Jupiter{
+    background-image: url(../../images/Io.jpg);
+    background-position: center;
+    background-size:cover;
+  }
+  #Europa-Jupiter{
+    background-image: url(../../images/Europa.jpg);
+    background-position: center;
+    background-size:cover;
+  }
+  #Callisto-Jupiter{
+    background-image: url(../../images/Callisto.jpg);
+    background-position: center;
+    background-size:cover;
+  }

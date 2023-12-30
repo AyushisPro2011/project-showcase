@@ -66,6 +66,21 @@ useEffect(() => {
       else if (selectedOption === "Ceres"){
         setResult(inputValue * 0.027)
       }
+      else if (selectedOption === "Ganymede-Jupiter"){
+        setResult(inputValue *0.146)
+      }
+      else if (selectedOption === "Titan-Saturn"){
+        setResult(inputValue * 0.138)
+      }
+      else if (selectedOption === "Callisto-Jupiter"){
+        setResult(inputValue * 0.126)
+      }
+      else if (selectedOption === "Io-Jupiter"){
+        setResult(inputValue * 0.183)
+      }
+      else if (selectedOption === "Europa-Jupiter"){
+        setResult(inputValue * 0.134)
+      }
     } , [selectedOption, inputValue]);
     return(
        <>

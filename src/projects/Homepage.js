@@ -1,6 +1,7 @@
 import Navbar from "../components/navbar";
 import Pro2logo from '../images/Pro2.png';
 import Pro3logo from '../images/Pro3.png'
+import Pro4logo from '../images/Pro4.png'
 import { Link } from "react-router-dom";
 
 
@@ -28,6 +29,9 @@ const Homepage = () =>{
             <div id="Pro2">
             <h2 style={{color : "pink"}}>Project 2: CSS Generator (Work in progress)</h2>
             <Link to="css_gen"><img src={Pro3logo} style={{width : "90%", height : "40%" , border : "2px solid white" , borderRadius : "5px"}} alt="Project2"></img>
+            </Link>
+            <h2 style={{color : "pink"}}>Project 3 :Facts about different planets</h2>
+            <Link to="planet-facts"><img src={Pro4logo} style={{width : "90%", height : "40%" , border : "2px solid white" , borderRadius : "5px"}} alt="Project3"></img>
             </Link>
             </div>
         </div>
