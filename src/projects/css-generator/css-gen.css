@@ -42,7 +42,7 @@
     left: 54%;
     top: 17%;
     width: 40vw;
-    height: 35vh;
+    height: 72vh;
     padding: 2%;
     border: 2px solid red;
     background-image: linear-gradient(90deg , green , red);
@@ -51,15 +51,6 @@
     opacity: 0.7;
     color: yellow;
     overflow: auto;
-}
-#example{
-    position: absolute;
-    left: 54%;
-    top: 63%;
-    border: 2px solid black;
-     width: 44vw;
-    height: 35vh;
-    
 }
 #leftbar > ul > li::before{
     content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
@@ -74,7 +65,6 @@
 #leftbar > ul  > li{
     list-style: none;
     margin: 2%;
-    
 }
 #leftbar > ul  > li > button {
     border-radius: 10px;
