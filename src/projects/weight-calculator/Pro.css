@@ -27,6 +27,7 @@
     padding: 2%;
     flex-direction: column;
     text-align: center;
+    box-shadow: 3px 3px 3px lightcoral;
   }
   .centralbox > p{
     font-size: 200% ;
@@ -70,6 +71,7 @@
     border-radius: 10px;
     opacity: 0.8;
     overflow: auto;
+    box-shadow: 4px 4px 10px black;
     
   }
   .sidebar > button{

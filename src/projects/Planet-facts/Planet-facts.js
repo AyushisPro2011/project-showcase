@@ -6,24 +6,24 @@ import './app.css'
 const PlanetFacts = () => {
     const curiosityThoughts = [
         "Curiosity fuels innovation and progress in all endeavors.",
-        "It's the spark igniting the pursuit of knowledge and understanding.",
+        "Curiosity is the spark igniting the pursuit of knowledge and understanding.",
         "Curiosity opens doors to new perspectives and boundless opportunities.",
         "Questioning the norm leads to groundbreaking discoveries and insights.",
-        "It's the gateway to learning, growth, and self-discovery.",
+        "Curiosity the gateway to learning, growth, and self-discovery.",
         "Curiosity encourages exploration beyond the known and familiar.",
         "Inquisitiveness breeds creativity and out-of-the-box thinking.",
         "The thirst for knowledge drives curiosity's insatiable hunger.",
         "Curiosity nurtures empathy by seeking to understand others' experiences.",
-        "It turns the mundane into the extraordinary, finding wonder everywhere.",
+        "Curiosity turns the mundane into the extraordinary, finding wonder everywhere.",
         "Curiosity emboldens the courageous to challenge the status quo.",
-        "It's the key ingredient in problem-solving and critical thinking.",
+        "Curiosity is the key ingredient in problem-solving and critical thinking.",
         "Embracing curiosity expands horizons and broadens intellectual landscapes.",
         "Curiosity invites us to ask 'why' and 'what if.'",
-        "It cultivates a mindset of continuous exploration and lifelong learning.",
+        "Curiosity cultivates a mindset of continuous exploration and lifelong learning.",
         "Curiosity stirs the adventurous spirit within, craving new experiences.",
-        "It dismantles barriers, fostering inclusivity and tolerance for diverse ideas.",
+        "Curiosity dismantles barriers, fostering inclusivity and tolerance for diverse ideas.",
         "Through curiosity, we unveil the beauty hidden in the ordinary.",
-        "It's the cornerstone of scientific inquiry and discovery.",
+        "Curiosity the cornerstone of scientific inquiry and discovery.",
         "Curiosity thrives in uncertainty, seeking understanding amid ambiguity."
       ];
     const [thought , setthought] = useState(curiosityThoughts[Math.round(Math.random() * 20)])
@@ -67,7 +67,7 @@ const PlanetFacts = () => {
           ],
           marsFacts : [
             "Mars harbors a thin atmosphere, primarily composed of carbon dioxide with traces of nitrogen and argon.",
-            "The planet's rotation takes approximately 24.6 hours, while its orbit around the Sun lasts around 687 Earth days.",
+            "Mars' rotation takes approximately 24.6 hours, while its orbit around the Sun lasts around 687 Earth days.",
             "Surface temperatures on Mars range from -195°F (-125°C) to highs of 70°F (20°C) at the equator, with extreme cold at the poles.",
             "Mars' eccentric orbit contributes to significant temperature variations, affecting its surface conditions.",
             "The surface of Mars is defined by rust-colored deserts, ancient volcanoes, canyons, and polar ice caps, reminiscent of diverse terrains on Earth.",
@@ -79,7 +79,7 @@ const PlanetFacts = () => {
           ],
           moonFacts :[
             "The Moon lacks a substantial atmosphere, with only trace amounts of elements like helium, neon, and hydrogen.",
-            "Rotation on its axis takes about 27.3 Earth days, the same duration it takes to complete one orbit around Earth.",
+            "Moon's rotation on its axis takes about 27.3 Earth days, the same duration it takes to complete one orbit around Earth.",
             "Surface temperatures on the Moon vary widely, from scorching highs of 253°F (123°C) in sunlight to bone-chilling lows of -387°F (-233°C) in shadowed areas.",
             "The lack of atmosphere exposes the Moon's surface to intense temperature fluctuations between day and night.",
             "The Moon's surface is marked by impact craters, maria (dark plains), highlands, and mountains formed by ancient volcanic activity.",
@@ -91,10 +91,10 @@ const PlanetFacts = () => {
           ],
           jupiterFacts : [
             "Jupiter boasts a thick atmosphere primarily composed of hydrogen and helium, with traces of methane, water vapor, and ammonia.",
-            "Rotation on its axis is remarkably fast, completing one day in about 9.9 Earth hours, while its orbit around the Sun takes around 11.86 Earth years.",
+            "Jupiter's Rotation on its axis is remarkably fast, completing one day in about 9.9 Earth hours, while its orbit around the Sun takes around 11.86 Earth years.",
             "Jupiter's immense size and mass contribute to immense gravitational forces, shaping its distinct features and interactions with its moons.",
             "Surface temperatures on Jupiter's cloud tops range from frigid lows of -280°F (-145°C) to intense highs due to internal heat sources.",
-            "The planet's atmosphere showcases colorful bands of clouds, including the famous Great Red Spot, a massive storm larger than Earth.",
+            "Jupiter's atmosphere showcases colorful bands of clouds, including the famous Great Red Spot, a massive storm larger than Earth.",
             "Jupiter's strong magnetic field is the most powerful in the solar system, creating intense radiation belts and auroras near its poles.",
             "The name 'Jupiter' is derived from the king of Roman gods, reflecting its size and dominance in the solar system.",
             "Jupiter has a vast system of over 80 known moons, with four large Galilean moons—Io, Europa, Ganymede, and Callisto—displaying diverse characteristics.",
@@ -103,7 +103,7 @@ const PlanetFacts = () => {
           ],
           saturnFacts :[
             "Saturn's atmosphere is predominantly composed of hydrogen and helium, with traces of methane and ammonia.",
-            "Rotation on its axis takes about 10.7 Earth hours, while it completes an orbit around the Sun in approximately 29.5 Earth years.",
+            "Saturn's Rotation on its axis takes about 10.7 Earth hours, while it completes an orbit around the Sun in approximately 29.5 Earth years.",
             "Surface temperatures on Saturn vary across its layers, from -285°F (-175°C) in the upper atmosphere to higher temperatures toward its core.",
             "The planet's most distinctive feature is its stunning ring system, composed mainly of ice particles and rocky debris.",
             "Saturn's rings, though expansive, are relatively thin, with intricate structures shaped by gravitational interactions with its moons.",
@@ -127,7 +127,7 @@ const PlanetFacts = () => {
           ],
           neptuneFacts :[
             "Neptune's atmosphere is primarily composed of hydrogen, helium, and traces of methane, lending it a striking blue color.",
-            "Rotation on its axis is relatively swift, taking about 16.1 Earth hours, while it orbits the Sun in approximately 165 Earth years.",
+            "Neptune's Rotation on its axis is relatively swift, taking about 16.1 Earth hours, while it orbits the Sun in approximately 165 Earth years.",
             "Surface temperatures on Neptune average around -353°F (-214°C), making it one of the coldest planets in the solar system.",
             "Neptune's atmosphere displays fast-moving clouds, including the most powerful recorded winds in the solar system, reaching speeds of over 1,300 mph (2,100 km/h).",
             "The planet's distinctive blue hue is due to the absorption of red light by methane in its atmosphere.",
@@ -139,61 +139,61 @@ const PlanetFacts = () => {
           ],
           plutoFacts: [
             "Pluto was reclassified as a dwarf planet in 2006, no longer considered the ninth planet.",
-            "It has a diameter smaller than Earth's Moon, measuring about 1,473 miles (2,370 kilometers).",
+            "Pluto has a diameter smaller than Earth's Moon, measuring about 1,473 miles (2,370 kilometers).",
             "Pluto's orbit is eccentric and inclined, at times crossing within Neptune's orbit.",
             "The dwarf planet has a large moon named Charon, forming a binary system.",
             "Surface temperatures on Pluto can drop to a frigid -375°F (-225°C).",
             "Sputnik Planitia, a heart-shaped region, comprises frozen nitrogen and carbon monoxide.",
             "Pluto's thin atmosphere is primarily nitrogen, with traces of methane and carbon monoxide.",
             "NASA's New Horizons mission in 2015 provided detailed images and data during its flyby.",
-            "It has four smaller moons—Styx, Nix, Kerberos, and Hydra—composed of ice and rock.",
+            "Pluto has four smaller moons—Styx, Nix, Kerberos, and Hydra—composed of ice and rock.",
             "Despite being reclassified, Pluto remains one of the farthest and most studied objects in the solar system."
           ],
           erisFacts :[
             "Discovered in 2005, Eris's finding led to Pluto's reclassification and the creation of the dwarf planet category.",
             "Eris is slightly smaller than Pluto, with a diameter of about 1,445 miles (2,326 kilometers).",
-            "It primarily consists of icy materials like methane and nitrogen, common in Kuiper Belt objects.",
+            "Eris primarily consists of icy materials like methane and nitrogen, common in Kuiper Belt objects.",
             "Eris rotates rapidly, completing a day in about 25.9 hours, much faster than Earth's rotation.",
-            "The dwarf planet has an elongated orbit, swinging between 38.2 and 97.6 astronomical units from the Sun.",
+            "Eris has an elongated orbit, swinging between 38.2 and 97.6 astronomical units from the Sun.",
             "Initially designated as the 'tenth planet,' debates over its status prompted a reevaluation of planetary definitions.",
             "Eris has a moon named Dysnomia, about 600 times fainter than Eris itself.",
             "Surface temperatures on Eris can plummet to a bone-chilling -405°F (-243°C).",
-            "It orbits within the Kuiper Belt, a region of icy bodies beyond Neptune.",
+            "Eris orbits within the Kuiper Belt, a region of icy bodies beyond Neptune.",
             "Eris' highly inclined and elliptical orbit makes it one of the most distant known objects in our solar system."
           ],
           haumeaFacts :[
             "Haumea was discovered in 2004 and recognized as a dwarf planet in 2008.",
-            "It's elongated, shaped like an elongated ellipsoid, possibly due to its rapid rotation.",
+            "Haumea is elongated, shaped like an elongated ellipsoid, possibly due to its rapid rotation.",
             "Haumea's diameter is approximately 1,400 miles (2,300 kilometers), making it larger than some other dwarf planets.",
-            "The dwarf planet orbits the Sun in a period of about 285 Earth years.",
-            "Its elongated shape causes Haumea to complete one rotation in a mere 3.9 hours, one of the fastest known rotations.",
+            "Haumea , the dwarf planet orbits the Sun in a period of about 285 Earth years.",
+            "Haumea's elongated shape causes Haumea to complete one rotation in a mere 3.9 hours, one of the fastest known rotations.",
             "Named after the Hawaiian goddess of fertility, Haumea has features named after Hawaiian gods and goddesses.",
-            "Its surface composition likely includes water ice, which contributes to its high reflectivity.",
+            "Haumea's surface composition likely includes water ice, which contributes to its high reflectivity.",
             "Haumea has two known moons, Hiʻiaka and Namaka, named after Hawaiian goddesses.",
-            "The dwarf planet's orbit is located beyond Neptune in the Kuiper Belt.",
-            "Its discovery prompted discussions and investigations into the nature and characteristics of distant Kuiper Belt objects."
+            "Haumea, the dwarf planet's orbit is located beyond Neptune in the Kuiper Belt.",
+            "Haumea's discovery prompted discussions and investigations into the nature and characteristics of distant Kuiper Belt objects."
           ],
           makemakeFacts :[
             "Discovered in 2005, Makemake was designated a dwarf planet in 2008.",
-            "It is one of the largest known trans-Neptunian objects, with a diameter around 870 miles (1,400 kilometers).",
+            "MakeMake is one of the largest known trans-Neptunian objects, with a diameter around 870 miles (1,400 kilometers).",
             "Makemake orbits the Sun in about 305 Earth years, positioned in the Kuiper Belt.",
             "Surface temperatures on Makemake are estimated to be around -385°F (-233°C).",
-            "The dwarf planet's surface likely contains methane, ethane, and possibly nitrogen-rich ices.",
+            "MakeMake , the dwarf planet's surface likely contains methane, ethane, and possibly nitrogen-rich ices.",
             "Makemake's reddish surface color is attributed to tholins formed by solar radiation on methane and nitrogen.",
             "Observations suggest the lack of significant moons or rings around Makemake.",
             "Named after the creator god of the Rapa Nui people of Easter Island, it shares namesake characteristics.",
-            "Its discovery raised questions about the diverse compositions and dynamics of Kuiper Belt objects.",
+            "MakeMake's discovery raised questions about the diverse compositions and dynamics of Kuiper Belt objects.",
             "Studies continue to reveal more about Makemake's properties and its place within the outer solar system."
           ],
           ceresFacts: [
             "Ceres, discovered in 1801, became the first dwarf planet recognized in the asteroid belt in 2006.",
-            "It's the largest object in the asteroid belt, with a diameter of about 590 miles (940 kilometers).",
+            "Ceres is  the largest object in the asteroid belt, with a diameter of about 590 miles (940 kilometers).",
             "Ceres orbits the Sun in about 4.6 Earth years, located between Mars and Jupiter.",
             "Surface temperatures on Ceres range from extremely cold regions around -225°F (-143°C) to slightly warmer areas.",
-            "It has a significant feature, a large crater named Occator, with bright spots caused by salt deposits.",
+            "Ceres has a significant feature, a large crater named Occator, with bright spots caused by salt deposits.",
             "Ceres' surface is composed of a mixture of water ice, rocky material, and possibly a subsurface ocean.",
             "NASA's Dawn mission provided detailed images, revealing diverse terrain and intriguing features.",
-            "The dwarf planet might have transient water vapor plumes periodically erupting from its surface.",
+            "Ceres , the dwarf planet might have transient water vapor plumes periodically erupting from its surface.",
             "Ceres was named after the Roman goddess of agriculture, reflecting its nurturing location in the asteroid belt.",
             "Ongoing exploration aims to uncover more about Ceres' composition, history, and potential for harboring life."
           ],
@@ -247,11 +247,11 @@ const PlanetFacts = () => {
           ],
           ganymedeFacts:[
             "Ganymede is the largest moon in the solar system, even larger than the planet Mercury.",
-            "It's one of Jupiter's Galilean moons, known for its diverse terrain and icy surface.",
+            "Ganymede is one of Jupiter's Galilean moons, known for its diverse terrain and icy surface.",
             "Ganymede possesses its own magnetic field, unique among moons, generated by a liquid iron core.",
             "The moon's surface exhibits grooves, ridges, craters, and dark regions hinting at complex geological history.",
             "Ganymede has both older, highly cratered areas and relatively younger, smoother regions due to resurfacing.",
-            "Its surface is primarily composed of water ice and silicate rock, with some regions covered in frost.",
+            "Ganymede's surface is primarily composed of water ice and silicate rock, with some regions covered in frost.",
             "Ganymede harbors an underground ocean beneath its icy crust, possibly larger than all of Earth's oceans combined.",
             "Observations suggest that Ganymede's ocean might have more water than any other celestial body in our solar system.",
             "NASA's JUICE mission aims to explore Ganymede to understand its geology, ice shell, and subsurface ocean.",
@@ -267,7 +267,7 @@ const PlanetFacts = () => {
     
     //functions
     const handleselect = (plan) => {
-        setthought(curiosityThoughts[Math.round(Math.random() * 20)])
+        setthought(curiosityThoughts[Math.floor(Math.random() * curiosityThoughts.length)])
         if (plan === "Mercury"){
             setplanet(plan)
             setfact(facts.mercuryFacts[Math.floor(Math.random() * facts.mercuryFacts.length)])
