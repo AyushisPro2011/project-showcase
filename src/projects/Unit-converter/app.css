@@ -1,5 +1,106 @@
+*{
+    border-radius: 15px;
+}
+
 body{
     background-image: url(../../images/back-unit-convo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+#sidebar{
+    position: absolute;
+    top: 18%;
+    left: 2%;
+    width: 27vw;
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid blueviolet;
+    padding: 1%;
+    background-image: linear-gradient(80deg , rgba(0,256,0,0.8) , orange);
+    box-shadow: 3px 3px 10px yellow;
+}
+#sidebar > button{
+    width: 13vw;
+    height: 18vh;
+    border: 3px solid violet;
+    opacity: 0.8;
+    transition: background-image 1s ease-out;
+    color: black;
+    background-color: wheat;
+    box-shadow: 3px 3px 10px yellow;
+}
+#main{
+    position: absolute;
+    left: 40vw;
+    top: 18vh;
+    width: 50vw;
+    height: 75vh;
+    border: 2px solid yellow;
+    color: yellow;
+    padding: 1%;
+    background-image: linear-gradient(60deg , rgba(12,12,120,0.8) , rgba(255,0,0,0.4));
+    box-shadow: 4px 4px 10px blue;
+}
+#val1{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    color: yellow;
+    height: 20%;
+    width: 30%;
+    font-size: 200%;
+}
+#val2{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    color: yellow;
+    height: 20%;
+    width: 30%;
+    font-size: 200%;
+}
+#U1{
+    position: absolute;
+    top: 14%;
+    left: 34%;
+    color: yellow;
+    height: 15%;
+    width: 25%;
+    font-size: 200%;
+}
+#U2{
+    position: absolute;
+    top: 65%;
+    left: 34%;
+    color: yellow;
+    height: 15%;
+    font-size: 200%;
+    width: 25%;
+    
+}
+#text{
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    width: 22%;
+    height: 20%;
+    text-align: center;
+    font-size: 200%;
+}
+#sign2{
+    position: absolute;
+    top: 48%;
+    left: 85%;
+    width: 22%;
+    height: 20%;
+    text-align: center;
+    font-size: 200%;
+}
+button:hover{
+    background-image: linear-gradient(90deg , green , blue);
+    color: wheat;
+    
 }
