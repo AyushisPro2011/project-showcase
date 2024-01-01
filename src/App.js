@@ -5,7 +5,7 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 import CSS_GEN from './projects/css-generator/css-gen.js';
 import PlanetFacts from './projects/Planet-facts/Planet-facts.js';
 import Contact from './projects/Contacts';
-import UnitConverter from './projects/Unit-converter/unit-converter';
+import PasswordGen from './projects/Currency-Converter/PasswordGen';
 
 
 function App(){
@@ -18,7 +18,7 @@ function App(){
     <Route exact path='/css-gen' element = {<CSS_GEN/>}/>
     <Route exact path='/planet-facts' element = {<PlanetFacts/>}/>
     <Route exact path='/contact' element = {<Contact/>}/>
-    <Route exact path='/unit-converter' element = {<UnitConverter/>}/>
+    <Route exact path='/Password-gen' element = {<PasswordGen/>}/>
     </Routes>
     </HashRouter>
     
