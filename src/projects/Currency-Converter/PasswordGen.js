@@ -17,18 +17,7 @@ const PasswordGen = () => {
         setoption(parseInt(event.target.value));
     };
 
-//copy 
-document.getElementById('copyButton').addEventListener('click', function() {
-    var text = document.getElementById('final').innerText;
 
-    // Create a textarea element to temporarily hold the text
-    navigator.clipboard.writeText(text)
-    .then()
-    .catch(function(err) {
-        // Error handling if the text copy fails
-        console.error('Unable to copy text: ', err);
-    });
-});
 
     const display = (arg) => {
         document.getElementById('final').innerHTML = arg
@@ -75,8 +64,7 @@ document.getElementById('copyButton').addEventListener('click', function() {
                     <input type="number" placeholder="Characters(Max-20)" id="chars" onChange={setchar}></input>
                     <p style={{ position: "absolute", left: "60%", top: "35%", color: "whitesmoke", fontSize: "90%", background: "orange"  , width : "auto"}}>only numbers till 19 will be accepted <br/> After it , the first digits will be accepted</p>
                     <button id="execute" onClick={() => display(setpassword(option))}>Generate the password</button>
-                    <p id="final"></p><button style={{top : "50%" , left : "87%" ,height : "10%" , width : "10%" , fontSize : "90%"}} id="copyButton">Copy to Clipboard</button>
-                </div>
+                    <p id="final"></p>
             </div>
         </body>
     );
