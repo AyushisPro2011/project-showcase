@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Projects/static/css/main.aa3d4156.css",
-    "main.js": "/React-Projects/static/js/main.a820dfa5.js",
+    "main.css": "/React-Projects/static/css/main.416a6b61.css",
+    "main.js": "/React-Projects/static/js/main.73d79ecb.js",
     "static/js/787.ed7593ed.chunk.js": "/React-Projects/static/js/787.ed7593ed.chunk.js",
     "static/media/back-planet-facts.jpg": "/React-Projects/static/media/back-planet-facts.f2a485e760ab1f284700.jpg",
     "static/media/Pro4.png": "/React-Projects/static/media/Pro4.6578a6b00eb28111c68f.png",
@@ -13,6 +13,7 @@
     "static/media/MakeMake.jpg": "/React-Projects/static/media/MakeMake.7f34e3a00125ac5eefe6.jpg",
     "static/media/Saturn.jpg": "/React-Projects/static/media/Saturn.d35a0a8d64102b635d2c.jpg",
     "static/media/Uranus.jpg": "/React-Projects/static/media/Uranus.9522fc70434bb2fc67bc.jpg",
+    "static/media/back-pass-gen.jpg": "/React-Projects/static/media/back-pass-gen.d60646536a1eb58dfb2a.jpg",
     "static/media/Europa.jpg": "/React-Projects/static/media/Europa.2055de59f1525d001954.jpg",
     "static/media/Eris.jpg": "/React-Projects/static/media/Eris.f363e3341370fd7fc17a.jpg",
     "static/media/Ceres.jpg": "/React-Projects/static/media/Ceres.1cf05923bcba1ac29d17.jpg",
@@ -30,12 +31,12 @@
     "static/media/Neptune.jpg": "/React-Projects/static/media/Neptune.92326579dfadb64b09cc.jpg",
     "static/media/Titan.jpg": "/React-Projects/static/media/Titan.fcb13ee890f1c80b0a3d.jpg",
     "index.html": "/React-Projects/index.html",
-    "main.aa3d4156.css.map": "/React-Projects/static/css/main.aa3d4156.css.map",
-    "main.a820dfa5.js.map": "/React-Projects/static/js/main.a820dfa5.js.map",
+    "main.416a6b61.css.map": "/React-Projects/static/css/main.416a6b61.css.map",
+    "main.73d79ecb.js.map": "/React-Projects/static/js/main.73d79ecb.js.map",
     "787.ed7593ed.chunk.js.map": "/React-Projects/static/js/787.ed7593ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa3d4156.css",
-    "static/js/main.a820dfa5.js"
+    "static/css/main.416a6b61.css",
+    "static/js/main.73d79ecb.js"
   ]
 }
