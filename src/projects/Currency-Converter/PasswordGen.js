@@ -65,6 +65,7 @@ const PasswordGen = () => {
                     <p style={{ position: "absolute", left: "60%", top: "35%", color: "whitesmoke", fontSize: "90%", background: "orange"  , width : "auto"}}>only numbers till 19 will be accepted <br/> After it , the first digits will be accepted</p>
                     <button id="execute" onClick={() => display(setpassword(option))}>Generate the password</button>
                     <p id="final"></p>
+                    </div>
             </div>
         </body>
     );
