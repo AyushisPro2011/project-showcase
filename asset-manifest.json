@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Projects/static/css/main.416a6b61.css",
-    "main.js": "/React-Projects/static/js/main.d6475c9b.js",
+    "main.js": "/React-Projects/static/js/main.73d79ecb.js",
     "static/js/787.ed7593ed.chunk.js": "/React-Projects/static/js/787.ed7593ed.chunk.js",
     "static/media/back-planet-facts.jpg": "/React-Projects/static/media/back-planet-facts.f2a485e760ab1f284700.jpg",
     "static/media/Pro4.png": "/React-Projects/static/media/Pro4.6578a6b00eb28111c68f.png",
@@ -32,11 +32,11 @@
     "static/media/Titan.jpg": "/React-Projects/static/media/Titan.fcb13ee890f1c80b0a3d.jpg",
     "index.html": "/React-Projects/index.html",
     "main.416a6b61.css.map": "/React-Projects/static/css/main.416a6b61.css.map",
-    "main.d6475c9b.js.map": "/React-Projects/static/js/main.d6475c9b.js.map",
+    "main.73d79ecb.js.map": "/React-Projects/static/js/main.73d79ecb.js.map",
     "787.ed7593ed.chunk.js.map": "/React-Projects/static/js/787.ed7593ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.416a6b61.css",
-    "static/js/main.d6475c9b.js"
+    "static/js/main.73d79ecb.js"
   ]
 }
