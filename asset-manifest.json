@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/React-Projects/static/css/main.416a6b61.css",
-    "main.js": "/React-Projects/static/js/main.73d79ecb.js",
+    "main.js": "/React-Projects/static/js/main.5db33271.js",
     "static/js/787.ed7593ed.chunk.js": "/React-Projects/static/js/787.ed7593ed.chunk.js",
     "static/media/back-planet-facts.jpg": "/React-Projects/static/media/back-planet-facts.f2a485e760ab1f284700.jpg",
     "static/media/Pro4.png": "/React-Projects/static/media/Pro4.6578a6b00eb28111c68f.png",
     "static/media/Pro2.png": "/React-Projects/static/media/Pro2.9d6d35cb2900a7cab0ea.png",
     "static/media/Pro3.png": "/React-Projects/static/media/Pro3.b2a3a334d302366ca1d6.png",
+    "static/media/Pro5.png": "/React-Projects/static/media/Pro5.f2e4e601006f6ff46324.png",
     "static/media/Earth.jpg": "/React-Projects/static/media/Earth.38a796973cc05f9f6934.jpg",
     "static/media/Venus.jpg": "/React-Projects/static/media/Venus.7bc07d1ebcae217aa637.jpg",
     "static/media/back-css-gen.jpg": "/React-Projects/static/media/back-css-gen.8156b2790b32c76d1715.jpg",
@@ -32,11 +33,11 @@
     "static/media/Titan.jpg": "/React-Projects/static/media/Titan.fcb13ee890f1c80b0a3d.jpg",
     "index.html": "/React-Projects/index.html",
     "main.416a6b61.css.map": "/React-Projects/static/css/main.416a6b61.css.map",
-    "main.73d79ecb.js.map": "/React-Projects/static/js/main.73d79ecb.js.map",
+    "main.5db33271.js.map": "/React-Projects/static/js/main.5db33271.js.map",
     "787.ed7593ed.chunk.js.map": "/React-Projects/static/js/787.ed7593ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.416a6b61.css",
-    "static/js/main.73d79ecb.js"
+    "static/js/main.5db33271.js"
   ]
 }
