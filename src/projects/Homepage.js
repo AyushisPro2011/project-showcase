@@ -2,6 +2,7 @@ import Navbar from "../components/navbar";
 import Pro2logo from '../images/Pro2.png';
 import Pro3logo from '../images/Pro3.png'
 import Pro4logo from '../images/Pro4.png'
+import Pro5logo from '../images/Pro5.png'
 import { Link } from "react-router-dom";
 import Pro_Temp from "./Project_Template";
 
@@ -24,7 +25,7 @@ const Homepage = () =>{
             <h1 style={{color: "green" , textAlign : "center" ,  fontSize : "200%" , textDecoration : "underline"}}>My Projects</h1>
             <Pro_Temp num = {"1"} title = {"Your weight on other planets"} logo = {Pro2logo} location = {"Pro"}/>
             <Pro_Temp num = {"2"} title = {"Facts about different Planet"} logo = {Pro4logo} location = {"planet-facts"}/>
-            <Pro_Temp num = {"3"} title = {"Password Generator"} logo = {Pro2logo} location = {"Password-gen"}/>
+            <Pro_Temp num = {"3"} title = {"Password Generator"} logo = {Pro5logo} location = {"Password-gen"}/>
             <Pro_Temp num = {"4"} title = {"CSS Generator(In progress)"} logo = {Pro3logo} location = {"css-gen"}/>
            
             </div>
