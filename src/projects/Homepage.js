@@ -24,7 +24,7 @@ const Homepage = () =>{
             <h1 style={{color: "green" , textAlign : "center" ,  fontSize : "200%" , textDecoration : "underline"}}>My Projects</h1>
             <Pro_Temp num = {"1"} title = {"Your weight on other planets"} logo = {Pro2logo} location = {"Pro"}/>
             <Pro_Temp num = {"2"} title = {"Facts about different Planet"} logo = {Pro4logo} location = {"planet-facts"}/>
-            <Pro_Temp num = {"3"} title = {"Indian Ruppee to different Currenc"} logo = {Pro2logo} location = {"Password-gen"}/>
+            <Pro_Temp num = {"3"} title = {"Password Generator"} logo = {Pro2logo} location = {"Password-gen"}/>
             <Pro_Temp num = {"4"} title = {"CSS Generator(In progress)"} logo = {Pro3logo} location = {"css-gen"}/>
            
             </div>
