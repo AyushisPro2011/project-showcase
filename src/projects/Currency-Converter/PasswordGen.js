@@ -48,7 +48,7 @@ const PasswordGen = () => {
     };
 
     return (
-        <body>
+        <div id="Pass-gen-body">
             <div id="gradient">
                 <Navbar Text={"Password Generator"} />
                 <p id="title">THE PASSWORD GENERATOR</p>
@@ -67,7 +67,7 @@ const PasswordGen = () => {
                     <p id="final"></p>
                     </div>
             </div>
-        </body>
+        </div>
     );
 };
 

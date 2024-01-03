@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "../../components/navbar";
 import Sidebar from "../../components/sidebar";
-import './app.css'
+import './planet-facts.css'
 
 const PlanetFacts = () => {
     const curiosityThoughts = [
@@ -358,7 +358,7 @@ const PlanetFacts = () => {
     
     //main method
     return(
-        <body>
+        <div id="planet-facts-body">
         <Navbar Text={"Facts about different planets"}/>
         <Sidebar  handleButtonClick={handleselect}/>
         <div id="info">
@@ -369,7 +369,7 @@ const PlanetFacts = () => {
         </div>
         
         
-        </body>
+        </div>
     )
 }
 export default PlanetFacts;

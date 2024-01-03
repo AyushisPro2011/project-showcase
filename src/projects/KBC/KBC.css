@@ -1,0 +1,49 @@
+#KBC-main{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+#KBC-interaction{
+
+}
+#KBC-question{
+    border: 2px solid black;
+    width: 70vw;
+    height: 40vh;
+    position: absolute;
+    left: 1%;
+    top: 18%;
+    
+}
+#KBC-options{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: absolute;
+    left: 1%;
+    top: 60%;
+    width: 70vw;
+    height: 37vh;
+}
+#KBC-options > button{
+    width: 49%; 
+    margin-left: 1%;
+    margin-top: 1%;
+}
+#KBC-lifelines{
+    width: 25vw;
+    height: 35vh;
+    border: 2px solid black;
+    position: absolute;
+    left: 72vw;
+    top: 62vh;
+}
+#KBC-points{
+    width: 25vw;
+    height: 42vh;
+    border: 2px solid black;
+    position: absolute;
+    left: 72vw;
+    top: 18vh;
+}

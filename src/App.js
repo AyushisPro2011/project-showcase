@@ -15,7 +15,7 @@ function App(){
     <Routes>
     <Route path='/' element = {<Homepage/>}/>
     <Route path='/Pro' element = {<Pro1/>}/>
-    <Route exact path='/kbc' element = {KBC}/>
+    <Route exact path='/kbc' element = {<KBC/>}/>
     <Route exact path='/planet-facts' element = {<PlanetFacts/>}/>
     <Route exact path='/contact' element = {<Contact/>}/>
     <Route exact path='/Password-gen' element = {<PasswordGen/>}/>
