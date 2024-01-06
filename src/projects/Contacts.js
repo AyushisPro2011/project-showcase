@@ -21,7 +21,7 @@ const Contact = () => {
         <li>Git (Version Control System) :<a  style = {{color : "white"}} href='https://git-scm.com/'>https://git-scm.com/</a><br/></li>
         <li> Special Thanks to  Unsplash for providing all the images:   <a style={{color: 'white'}} href='https://unsplash.com'>https://unsplash.com</a>          </li>
         </ul>
-        <p>Created solo by me(yes , All of the work was done by me)</p>
+        <p>Created by Me(All of the code was written by me)</p>
         </div>
         </body>
     )
