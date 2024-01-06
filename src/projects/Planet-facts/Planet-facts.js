@@ -363,7 +363,7 @@ const PlanetFacts = () => {
         <Sidebar  handleButtonClick={handleselect}/>
         <div id="info">
             <h1 id="Planet-Name">{Planet}</h1>
-            <p style={{textAlign : "left" , color : "wheat" , fontSize : "200%  "}}>Did you know,<p style={{fontSize : "75%" , color : "indigo" , textShadow : "1px 2px 3px white"}}>{fact}</p></p>
+            <p style={{textAlign : "left" , color : "wheat" , fontSize : "200%  "}}>Did you know,<p style={{fontSize : "75%" , color : "indigo" , textShadow : "1px 2px 3px white"}} id = "Planet-facts-mainframe">{fact}</p></p>
             <br/>
             <code>{thought}</code>
         </div>

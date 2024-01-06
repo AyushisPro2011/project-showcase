@@ -41,6 +41,10 @@
     font-size: 120%;
     height: 20%;
     color: white;
+    transition: background-color 500ms ease;
+  }
+  .centralbox > input:hover{
+    background-color: rgba(120, 240, 256, 1.0);
   }
   .centralbox > select {
     width: 80%;

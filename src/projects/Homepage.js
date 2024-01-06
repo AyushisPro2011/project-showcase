@@ -3,7 +3,6 @@ import Pro2logo from '../images/Pro2.png';
 import Pro3logo from '../images/Pro3.png'
 import Pro4logo from '../images/Pro4.png'
 import Pro5logo from '../images/Pro5.png'
-import { Link } from "react-router-dom";
 import Pro_Temp from "./Project_Template";
 
 

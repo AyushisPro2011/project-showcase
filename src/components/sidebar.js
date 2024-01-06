@@ -6,7 +6,7 @@ const Sidebar = ({ handleButtonClick }) => {
     return (
       <div className='sidebar'>
         {planetOptions.map((option) => (
-          <button value={option} onClick={() => handleButtonClick(option)} id = {option}>
+          <button value={option} onClick={() => handleButtonClick(option)} id = {option} style={{cursor : "pointer"}}>
             {option.charAt(0).toUpperCase() + option.slice(1)}
           </button>
         ))}

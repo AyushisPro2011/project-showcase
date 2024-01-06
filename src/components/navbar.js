@@ -18,7 +18,7 @@ const Navbar = ({Text , color}) =>{
         // Clean up
         document.body.removeChild(link);}
     return(
-        <div id="navbar" style={{backgroundColor : "black" , opacity : 0.45 , display : "flex" , alignItems : "center",justifyContent : "space-between" , flexDirection : "row" , padding : "0.5%",border : "2px solid white" , borderRadius : "5px" , boxShadow : "3px 3px 10px orange" , textShadow : "1px 1px 4px white" ,position : "fixed"} }>
+        <div id="navbar" style={{backgroundColor : "black" , opacity : 0.45 , display : "flex"  ,justifyContent : "space-between" , flexDirection : "row" , padding : "0.5%",border : "2px solid white" , borderRadius : "5px" , boxShadow : "3px 3px 10px orange" , textShadow : "1px 1px 4px white" } }>
            <h2 style={{color:"white" , }}><button style = {{border : "1px solid white" , width:"100%" , height : "100%" ,  borderRadius : "20px" ,backgroundColor: "pink"  }}> <Link to = "/">Other apps</Link></button></h2>
             <h1  style={{color:{color} ,fontSize : "220%" , textDecoration : "underline"}}>{Text}</h1>
             <h2 style={{color:"white" ,}}><button style = {{border : "1px solid white",  height : "100%" , borderRadius : "20px" , width : "200%",backgroundColor: "pink"  }}><Link to={"/contact"}>Extras</Link></button></h2>
