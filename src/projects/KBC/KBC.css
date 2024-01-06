@@ -1,5 +1,6 @@
 *{
     border-radius: 10px;
+    text-shadow: 1px 1px 5px pink;
 }
 
 
@@ -73,9 +74,12 @@
 }
 #KBC-lifelines > button{
     background-color: rgba(200,100,256,0.4);
-    height: 24%;
+    height: 49%;
     width: 98%;
-    color: lightgoldenrodyellow;
+    color: red;
+    font-weight:700;
+    
+    background: linear-gradient(45deg , rgba(0,256,0,0.7), grey);
     font-size: 180%;
     padding: 1%;
 }
