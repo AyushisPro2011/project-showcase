@@ -182,3 +182,20 @@
     background-position: center;
     background-size:cover;
   }
+
+  /* Mobile styling */
+
+  @media (max-width : 786px) {
+      .centralbox{
+        position: absolute;
+        left: 0;
+        max-height: 55vh;
+        top: 40vh;
+        width: 85vw;
+      }
+      .centralbox > p{
+        font-size: 180%;
+        max-height: 40%;
+        overflow: auto;
+      }
+  }

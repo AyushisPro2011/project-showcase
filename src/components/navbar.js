@@ -19,10 +19,10 @@ const Navbar = ({Text , color}) =>{
         document.body.removeChild(link);}
     return(
         <div id="navbar" style={{backgroundColor : "black" , opacity : 0.45 , display : "flex"  ,justifyContent : "space-between" , flexDirection : "row" , padding : "0.5%",border : "2px solid white" , borderRadius : "5px" , boxShadow : "3px 3px 10px orange" , textShadow : "1px 1px 4px white" } }>
-           <h2 style={{color:"white" , }}><button style = {{border : "1px solid white" , width:"100%" , height : "100%" ,  borderRadius : "20px" ,backgroundColor: "pink"  }}> <Link to = "/">Other apps</Link></button></h2>
-            <h1  style={{color:{color} ,fontSize : "220%" , textDecoration : "underline"}}>{Text}</h1>
-            <h2 style={{color:"white" ,}}><button style = {{border : "1px solid white",  height : "100%" , borderRadius : "20px" , width : "200%",backgroundColor: "pink"  }}><Link to={"/contact"}>Extras</Link></button></h2>
-            <h2 style={{color:"white" ,}}><button  style = {{border : "1px solid white",  height : "120%" , borderRadius : "20px",width : "100%",backgroundColor: "pink"  }} onClick={handleDownload}>Download <br></br>Code</button></h2>
+           <h2 style={{color:"white" , }} className="Nav-b1"><button style = {{border : "1px solid white" , width:"100%" , height : "100%" ,  borderRadius : "20px" ,backgroundColor: "pink"  }} className="Nav-b1"> <Link to = "/">Other apps</Link></button></h2>
+            <h1  style={{color:"red" ,fontSize : "220%" , textDecoration : "underline"}} id="Nav-title">{Text}</h1>
+            <h2 style={{color:"white" ,}} className="Nav-b2"><button style = {{border : "1px solid white",  height : "100%" , borderRadius : "20px" , width : "200%",backgroundColor: "pink"  }} className="Nav-b2"><Link to={"/contact"}>Extras</Link></button></h2>
+            <h2 style={{color:"white" ,}} className="Nav-b3"><button  style = {{border : "1px solid white",  height : "120%" , borderRadius : "20px",width : "100%",backgroundColor: "pink"  }} onClick={handleDownload} className="Nav-b3">Download Code</button></h2>
         </div>
     )
 }

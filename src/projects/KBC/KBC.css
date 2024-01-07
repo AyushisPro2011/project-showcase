@@ -47,6 +47,7 @@
     font-size: 350%;
     color: rgb(238, 238, 113);
     overflow: auto;
+    box-shadow: 3px 3px 6px blueviolet;
 
     
 }
@@ -60,6 +61,7 @@
     width: 70vw;
     height: 37vh;
     overflow: auto;
+    box-shadow: 3px 3px 6px blueviolet;
 }
 #KBC-options > button{
     width: 49%; 
@@ -73,6 +75,7 @@
     padding: 0.5%;
     overflow: auto;
     font-size: 150%;
+    box-shadow: 3px 3px 6px blueviolet;
 }
 #KBC-options > button:hover{
     background-image: linear-gradient(180deg , red, blue);
@@ -91,6 +94,7 @@
     justify-content: space-between;
     align-items: center;
     overflow: auto;
+    box-shadow: 3px 3px 6px blueviolet;
 }
 #KBC-lifelines > button{
     background-color: rgba(200,100,256,0.4);
@@ -98,7 +102,7 @@
     width: 98%;
     color: red;
     font-weight:700;
-    
+    box-shadow: 3px 3px 6px blueviolet;
     background: linear-gradient(45deg , rgba(0,256,0,0.7), grey);
     font-size: 180%;
     padding: 1%;
@@ -113,6 +117,7 @@
     overflow: auto;
     text-align: center;
     overflow: auto;
+    box-shadow: 3px 3px 6px blueviolet;
 }
 #KBC-points > table{
     border: 2px solid black;

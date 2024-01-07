@@ -2,6 +2,123 @@
 *{
   font-family: 'Poppins';
 }
+/* styles.css */
+
+#navbar {
+  background-color: black;
+  opacity: 0.45;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 5px;
+  border: 2px solid white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px orange;
+  text-shadow: 1px 1px 4px white;
+}
+
+#navbar h2 {
+  color: white;
+}
+
+#navbar h1 {
+  color: var(--text-color); /* You need to define a variable for Text color */
+  font-size: 220%;
+  text-decoration: underline;
+}
+
+#navbar button {
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: pink;
+}
+
+#navbar button a {
+  color: green;
+  text-decoration: none;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  #navbar {
+   display:block;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 90vw !important;
+   height: 15vh;
+  }
+
+  #navbar >h1 {
+    font-size: 22px !important; /* Adjust font size for smaller screens */
+  }
+
+  #navbar button {
+    position: absolute;
+    left: 10%;
+    width: 30px !important; /* Adjust button width for smaller screens */
+  }
+  .Nav-b3{
+    height: 5vh;
+    width: 10vw;
+    min-width: 22vw;
+    position: absolute;
+    left: 65vw;
+    top: 3vh;
+  }
+
+  .Nav-b2{
+    height: 5vh;
+    width: 10vw;
+    position: absolute;
+    left: 35vw;
+    min-width: 22vw;
+    top: 3.5vh;
+  }
+
+  .Nav-b1{
+    height: 5vh;
+    width: 10vw;
+    position: absolute;
+    left: 50vw;
+    min-width: 22vw;
+    left: 2vw;
+    top: 3.5vh
+  }
+
+  #navbar> h2 >button{
+    width: 30px !important; /* Adjust button width for the third h2 */
+  }
+
+  #navbar >h2> button {
+    height: 140%; /* Adjust button height for the fourth h2 */
+    width: 30px !important; /* Adjust button width for the fourth h2 */
+  }
+  #Nav-title{
+    position: absolute;
+    left: 11vw;
+    top: -2vh;
+  }
+}
 
 
+
+/* Sidebar */
+@media (max-width : 768px) {
+  .sidebar{
+  height: 10vh !important;
+  width: 90vw !important;
+  flex-direction: row !important;
+  min-height: 20vh;
+}
+  .sidebar > button{
+    min-width: 20vw;
+    max-width: 30vw;
+    min-height: 10vh;
+    border-radius: 10px !important;
+  }
+
+
+
+}
 
