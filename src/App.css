@@ -45,12 +45,14 @@
    position: absolute;
    left: 0;
    top: 0;
-   width: 90vw !important;
+   width: 95vw !important;
    height: 15vh;
   }
 
   #navbar >h1 {
     font-size: 22px !important; /* Adjust font size for smaller screens */
+    text-align: center;
+    width: 75vw;
   }
 
   #navbar button {
@@ -107,7 +109,7 @@
 @media (max-width : 768px) {
   .sidebar{
   height: 10vh !important;
-  width: 90vw !important;
+  width: 95vw !important;
   flex-direction: row !important;
   min-height: 20vh;
 }

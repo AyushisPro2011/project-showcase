@@ -30,3 +30,17 @@
     background-color: black;
     color: lightgray;
 }
+
+
+/* Mobile Layout */
+@media (max-width:786px) {
+    #planet-facts-body{
+        height: 120vh;
+    }
+    #info{
+        position: absolute;
+        top: 40vh !important;
+        left: 1vw !important;
+        min-width: 95vw !important;
+    }
+}

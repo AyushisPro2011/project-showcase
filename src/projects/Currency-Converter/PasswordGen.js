@@ -49,8 +49,9 @@ const PasswordGen = () => {
 
     return (
         <div id="Pass-gen-body">
+            <Navbar Text={"Password Generator"} />
             <div id="gradient">
-                <Navbar Text={"Password Generator"} />
+                
                 <p id="title">THE PASSWORD GENERATOR</p>
                 <div id="options">
                     <select id="option" onChange={changeopt}>
@@ -62,7 +63,7 @@ const PasswordGen = () => {
                         <option value={6}>Alphabets, Numbers and Symbols</option>
                     </select>
                     <input type="number" placeholder="Characters(Max-20)" id="chars" onChange={setchar}></input>
-                    <p style={{ position: "absolute", left: "60%", top: "35%", color: "whitesmoke", fontSize: "90%", background: "orange"  , width : "auto"}}>only numbers till 19 will be accepted <br/> After it , the first digits will be accepted</p>
+                    <p style={{ position: "absolute", left: "60%", top: "35%", color: "whitesmoke", fontSize: "90%", background: "orange"  , width : "auto"}} id="warning">only numbers till 19 will be accepted <br/> After it , the first digits will be accepted</p>
                     <button id="execute" onClick={() => display(setpassword(option))}>Generate the password</button>
                     <p id="final"></p>
                     </div>

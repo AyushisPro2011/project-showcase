@@ -137,3 +137,8 @@ td:hover{
     font-weight:900;
     font-size: 120%;
 }
+
+/* Mobile Layout */
+@media (max-width:786px) {
+    
+}

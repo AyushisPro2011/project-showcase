@@ -3,7 +3,7 @@
     background-position: center;
     background-size:cover;
     width: 100%;
-    height: 110vh;
+    height: 100vh;
   }
   #homepage > #intro_text{
     color: violet;
@@ -39,6 +39,26 @@
     padding: 1%;
     background-image: linear-gradient(90deg , magenta ,rgba(0,0,0,0.5));
     box-shadow: 2px 2px 2px blue;
+  }
+
+
+
+  /* Mobile styling */
+
+  @media (max-width:786px) {
+    #homepage{
+      height: 170vh;
+    }
+    #intro_text{
+      width: 95vw !important;
+      font-size: 65%;
+    }
+    #projects{
+      position: absolute;
+      top: 90vh !important;
+      left: 1vw !important;
+      min-width: 95vw !important;
+    }
   }
 
   
