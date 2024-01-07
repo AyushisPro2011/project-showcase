@@ -54,6 +54,86 @@ const KBC = () => {
    
     const questions = [
         new Question(
+            "Which ancient civilization built the pyramids?",
+            "Greek",
+            "Roman",
+            "Egyptian",
+            "Mayan",
+            3
+        ),
+        new Question(
+            "Who was the first President of the United States?",
+            "Thomas Jefferson",
+            "George Washington",
+            "Abraham Lincoln",
+            "John Adams",
+            2
+        ),
+        new Question(
+            "In which year did Christopher Columbus first reach the Americas?",
+            "1492",
+            "1500",
+            "1525",
+            "1600",
+            1
+        ),
+        new Question(
+            "Who was the first female Prime Minister of the United Kingdom?",
+            "Margaret Thatcher",
+            "Theresa May",
+            "Indira Gandhi",
+            "Queen Victoria",
+            1
+        ),
+        new Question(
+            "Which event marked the start of World War I?",
+            "Assassination of Archduke Franz Ferdinand",
+            "Battle of Stalingrad",
+            "Treaty of Versailles",
+            "Bombing of Pearl Harbor",
+            1
+        ),
+        new Question(
+            "Who was the founder of the Mongol Empire?",
+            "Genghis Khan",
+            "Kublai Khan",
+            "Attila the Hun",
+            "Timur",
+            1
+        ),
+        new Question(
+            "Who wrote 'The Communist Manifesto'?",
+            "Karl Marx",
+            "Joseph Stalin",
+            "Vladimir Lenin",
+            "Leon Trotsky",
+            1
+        ),
+        new Question(
+            "Which civilization is credited with the invention of writing?",
+            "Sumerians",
+            "Ancient Egyptians",
+            "Mayans",
+            "Greeks",
+            1
+        ),
+        new Question(
+            "Who was the longest-reigning monarch in British history?",
+            "Queen Elizabeth II",
+            "Queen Victoria",
+            "King Henry VIII",
+            "King George III",
+            2
+        ),
+        new Question(
+            "Which treaty officially ended World War I?",
+            "Treaty of Versailles",
+            "Treaty of Paris",
+            "Treaty of Rome",
+            "Treaty of Berlin",
+            1
+        ),
+        new Question(
             "What is the largest mammal in the world?",
             "Elephant",
             "Blue whale",
@@ -88,7 +168,7 @@ const KBC = () => {
         new Question(
             "What is the capital of Japan?",
             "Shanghai",
-            "Beijing",
+            "Beijing 0",
             "Seoul",
             "Tokyo",
             4
@@ -400,7 +480,7 @@ const KBC = () => {
             "7",
             "10",
             "8",
-            4
+            1
         ),
         new Question(
             "What is the area of a square with a side length of 6 units?",
@@ -424,7 +504,7 @@ const KBC = () => {
             "6",
             "7",
             "10",
-            3
+            1
         ),
         new Question(
             "What is the value of 'y' in the equation y = 3x + 2 when x = 4?",
@@ -432,7 +512,7 @@ const KBC = () => {
             "12",
             "16",
             "10",
-            4
+            1
         ),
         new Question(
             "What is the product of 7 and 9?",
@@ -448,7 +528,326 @@ const KBC = () => {
             "15.7 units",
             "25 units",
             "10 units",
-            1)
+            1),
+            new Question(
+                "Who wrote the famous novel 'To Kill a Mockingbird'?",
+                "Mark Twain",
+                "Harper Lee",
+                "J.D. Salinger",
+                "F. Scott Fitzgerald",
+                2
+            ),
+            new Question(
+                "Which country is known as the Land of the Rising Sun?",
+                "China",
+                "South Korea",
+                "Japan",
+                "Thailand",
+                3
+            ),
+            new Question(
+                "What is the chemical symbol for gold?",
+                "Go",
+                "Gl",
+                "Au",
+                "Ag",
+                3
+            ),
+            new Question(
+                "Who is the first person to step on the moon?",
+                "Buzz Aldrin",
+                "Yuri Gagarin",
+                "Neil Armstrong",
+                "John Glenn",
+                3
+            ),
+            new Question(
+                "Which planet is known as the Red Planet?",
+                "Venus",
+                "Mars",
+                "Jupiter",
+                "Saturn",
+                2
+            ),
+            new Question(
+                "What is the capital city of Brazil?",
+                "Rio de Janeiro",
+                "São Paulo",
+                "Brasília",
+                "Salvador",
+                3
+            ),
+            new Question(
+                "Who painted the Mona Lisa?",
+                "Leonardo da Vinci",
+                "Vincent van Gogh",
+                "Pablo Picasso",
+                "Claude Monet",
+                1
+            ),
+            new Question(
+                "What is the largest ocean on Earth?",
+                "Atlantic Ocean",
+                "Indian Ocean",
+                "Arctic Ocean",
+                "Pacific Ocean",
+                4
+            ),
+            new Question(
+                "What is the largest desert in the world?",
+                "Sahara Desert",
+                "Arabian Desert",
+                "Gobi Desert",
+                "Kalahari Desert",
+                1
+            ),
+            new Question(
+                "Which river is the longest in the world?",
+                "Amazon River",
+                "Nile River",
+                "Mississippi River",
+                "Yangtze River",
+                2
+            ),
+            new Question(
+                "Who is known as the 'Father of Physics'?",
+                "Isaac Newton",
+                "Galileo Galilei",
+                "Albert Einstein",
+                "Nikola Tesla",
+                2
+            ),
+            new Question(
+                "In which year did World War II end?",
+                "1943",
+                "1945",
+                "1947",
+                "1950",
+                2
+            ),
+            new Question(
+                "What is the largest mammal in the world?",
+                "Elephant",
+                "Blue whale",
+                "Giraffe",
+                "Hippo",
+                2
+            ),
+            new Question(
+                "Who is the author of '1984'?",
+                "George Orwell",
+                "Aldous Huxley",
+                "F. Scott Fitzgerald",
+                "Ernest Hemingway",
+                1
+            ),
+            new Question(
+                "What is the capital city of Canada?",
+                "Toronto",
+                "Ottawa",
+                "Vancouver",
+                "Montreal",
+                2
+            ),
+            new Question(
+                "Who developed the theory of general relativity?",
+                "Isaac Newton",
+                "Albert Einstein",
+                "Stephen Hawking",
+                "Galileo Galilei",
+                2
+            ),
+            new Question(
+                "What is the currency of Russia?",
+                "Euro",
+                "Dollar",
+                "Ruble",
+                "Pound",
+                3
+            ),
+            new Question(
+                "Which country is famous for tulips?",
+                "Netherlands",
+                "France",
+                "Germany",
+                "Belgium",
+                1
+            ),
+            new Question(
+                "What is the smallest continent in the world?",
+                "North America",
+                "Europe",
+                "Asia",
+                "Australia",
+                4
+            ),
+            new Question(
+                "What is the capital city of Australia?",
+                "Sydney",
+                "Melbourne",
+                "Canberra",
+                "Brisbane",
+                3
+            ), new Question(
+                "What is the largest organ in the human body?",
+                "Liver",
+                "Brain",
+                "Skin",
+                "Heart",
+                3
+            ),
+            new Question(
+                "Who is known as the 'Father of Modern Science'?",
+                "Isaac Newton",
+                "Galileo Galilei",
+                "Charles Darwin",
+                "Albert Einstein",
+                2
+            ),
+            new Question(
+                "Which country is known as the 'Land of a Thousand Lakes'?",
+                "Sweden",
+                "Finland",
+                "Norway",
+                "Denmark",
+                2
+            ),
+            new Question(
+                "Who composed the famous musical piece 'Symphony No. 9'?",
+                "Wolfgang Amadeus Mozart",
+                "Ludwig van Beethoven",
+                "Johann Sebastian Bach",
+                "Johannes Brahms",
+                2
+            ),
+            new Question(
+                "What is the capital city of South Korea?",
+                "Seoul",
+                "Busan",
+                "Incheon",
+                "Daegu",
+                1
+            ),
+            new Question(
+                "Which planet is known as the 'Morning Star'?",
+                "Mars",
+                "Venus",
+                "Mercury",
+                "Jupiter",
+                2
+            ),
+            new Question(
+                "Who is the author of 'Pride and Prejudice'?",
+                "Jane Austen",
+                "Charlotte Brontë",
+                "Emily Dickinson",
+                "Virginia Woolf",
+                1
+            ),
+            new Question(
+                "What is the largest bone in the human body?",
+                "Femur",
+                "Tibia",
+                "Humerus",
+                "Radius",
+                1
+            ),
+            new Question(
+                "Which country is the largest producer of coffee in the world?",
+                "Brazil",
+                "Colombia",
+                "Vietnam",
+                "Ethiopia",
+                1
+            ),
+            new Question(
+                "Who is the current CEO of Tesla?",
+                "Elon Musk",
+                "Jeff Bezos",
+                "Tim Cook",
+                "Satya Nadella",
+                1
+            ),
+            new Question(
+                "What is the tallest mountain in Africa?",
+                "Mount Kilimanjaro",
+                "Mount Everest",
+                "Mount McKinley",
+                "Mount Elbrus",
+                1
+            ),
+            new Question(
+                "Who painted the famous artwork 'The Starry Night'?",
+                "Vincent van Gogh",
+                "Leonardo da Vinci",
+                "Pablo Picasso",
+                "Claude Monet",
+                1
+            ),
+            new Question(
+                "What is the largest living bird by wingspan?",
+                "Ostrich",
+                "Bald Eagle",
+                "Albatross",
+                "Condor",
+                3
+            ),
+            new Question(
+                "Who founded Microsoft?",
+                "Bill Gates",
+                "Steve Jobs",
+                "Larry Page",
+                "Mark Zuckerberg",
+                1
+            ),
+            new Question(
+                "Which river is the longest in the United States?",
+                "Missouri River",
+                "Colorado River",
+                "Columbia River",
+                "Mississippi River",
+                4
+            ),
+            new Question(
+                "Which famous scientist developed the theory of gravity?",
+                "Isaac Newton",
+                "Galileo Galilei",
+                "Albert Einstein",
+                "Stephen Hawking",
+                1
+            ),
+            new Question(
+                "What is the largest moon in the solar system?",
+                "Titan",
+                "Ganymede",
+                "Europa",
+                "Callisto",
+                2
+            ),
+            new Question(
+                "Who wrote the play 'Romeo and Juliet'?",
+                "William Shakespeare",
+                "Charles Dickens",
+                "Mark Twain",
+                "Jane Austen",
+                1
+            ),
+            new Question(
+                "What is the capital city of Egypt?",
+                "Cairo",
+                "Alexandria",
+                "Luxor",
+                "Giza",
+                1
+            ),
+            new Question(
+                "Which country is known as the 'Land of the Rising Sun'?",
+                "China",
+                "South Korea",
+                "Japan",
+                "Thailand",
+                3
+            )
  
     ]
     

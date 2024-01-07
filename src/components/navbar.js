@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 const Navbar = ({Text , color}) =>{
     const handleDownload = () => {
         // Assuming you have the URL to your existing ZIP file
-        const zipFileUrl = 'https://github.com/AyushisPro2011/react-test/archive/main.zip';
+        const zipFileUrl = 'https://github.com/AyushisPro2011/React-Projects/archive/main.zip';
     
         // Create an anchor element
         const link = document.createElement('a');

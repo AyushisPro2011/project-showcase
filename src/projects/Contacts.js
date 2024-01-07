@@ -10,7 +10,7 @@ const Contact = () => {
             Website Production Build :  <a  style = {{color : "white"}} href='https://ayushispro2011.github.io/React-Projects/'>https://ayushispro2011.github.io/React-Projects/</a>
         </p>
         <br/>
-        <h1>Technologies used</h1>
+        <h1>Technologies used:</h1>
         <ul>
         <li>Vs Code :<a  style = {{color : "white"}} href='https://code.visualstudio.com/'>Official vs code site</a><br/></li>
         <li> Node.js : <a  style = {{color : "white"}} href='https://nodejs.org/en'>Official NPM site</a><br/></li>
