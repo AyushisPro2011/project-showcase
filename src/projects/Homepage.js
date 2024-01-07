@@ -1,6 +1,6 @@
 import Navbar from "../components/navbar";
 import Pro2logo from '../images/Pro2.png';
-import Pro3logo from '../images/Pro3.png'
+import Pro6logo from '../images/Pro6.png'
 import Pro4logo from '../images/Pro4.png'
 import Pro5logo from '../images/Pro5.png'
 import Pro_Temp from "./Project_Template";
@@ -25,7 +25,7 @@ const Homepage = () =>{
             <Pro_Temp num = {"1"} title = {"Your weight on other planets"} logo = {Pro2logo} location = {"Pro"}/>
             <Pro_Temp num = {"2"} title = {"Facts about different Planet"} logo = {Pro4logo} location = {"planet-facts"}/>
             <Pro_Temp num = {"3"} title = {"Password Generator"} logo = {Pro5logo} location = {"Password-gen"}/>
-            <Pro_Temp num = {"4"} title = {"Quiz App"} logo = {Pro3logo} location = {"kbc"}/>
+            <Pro_Temp num = {"4"} title = {"Quiz App"} logo = {Pro6logo} location = {"kbc"}/>
            
             </div>
         </div>
