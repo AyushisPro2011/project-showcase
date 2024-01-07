@@ -1,7 +1,26 @@
 *{
     border-radius: 10px;
-    text-shadow: 1px 1px 5px pink;
+    
 }
+
+#KBC-loss-main{
+    background: linear-gradient(50deg , rgba(200,120,256,0.8) , grey);
+    width: 100vw;
+    height: 100vh;
+}
+#KBC-win-main{
+    background: linear-gradient(50deg , rgba(200,200,50,0.7), orange);
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
 
 
 #KBC-main{
@@ -13,6 +32,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 0px;
+    text-shadow: 1px 1px 15px grey;
 }
 #KBC-question{
     border: 2px solid black;

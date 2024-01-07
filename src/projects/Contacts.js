@@ -22,6 +22,7 @@ const Contact = () => {
         <li> Special Thanks to  Unsplash for providing all the images:   <a style={{color: 'white'}} href='https://unsplash.com'>https://unsplash.com</a>          </li>
         </ul>
         <p>Created by Me(All of the code was written by me)</p>
+        <p>Some ideas given by Tirth and Hriday (8th class)</p>
         </div>
         </body>
     )

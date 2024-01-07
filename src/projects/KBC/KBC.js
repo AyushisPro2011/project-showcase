@@ -464,14 +464,16 @@ const KBC = () => {
    const [currentopt2 , setcurrentopt2] = useState(curquestion.opt2)
    const [currentopt3 , setcurrentopt3] = useState(curquestion.opt3)
    const [currentopt4 , setcurrentopt4] = useState(curquestion.opt4)
+   const [canskip , setskip] = useState(false)
     
 
 
 
     //functions
     const handleanswer = (event) => {
-        
+            
         const a = event.target.textContent
+        
         if (parseInt(a[0]) === curquestion.correct){
                 console.log("true")
                 setqindex(qindex + 1)
@@ -487,7 +489,12 @@ const KBC = () => {
 
 
     //lifelines
-
+    const skip = (event) =>{
+        setqindex(qindex + 1)
+        event.target.textContent = 'Skip the question(disabled)';
+        setpoints(points + 200)
+        setskip(true)
+    }
 
 
 
@@ -511,6 +518,9 @@ const KBC = () => {
 
     //useffects
     useEffect( () => {
+        
+        
+        
         setcurrentquestion( qindex + ". " +curquestion.q)
         setcurrentopt1(curquestion.opt1)
         setcurrentopt2(curquestion.opt2)
@@ -640,7 +650,7 @@ const KBC = () => {
         
         
         <div id='KBC-lifelines'>
-            <button>Skip The question</button>
+            <button onClick={skip} disabled = {canskip} id='skip'>Skip The question</button>
             <button>Get the correct answer</button>
 
         </div>
