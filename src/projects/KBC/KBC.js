@@ -495,7 +495,10 @@ const KBC = () => {
         setpoints(points + 200)
         setskip(true)
     }
-
+    
+    function getanswer(qno){
+        window.open("https://en.wikipedia.org/wiki/Main_Page")
+    }
 
 
 
@@ -651,7 +654,7 @@ const KBC = () => {
         
         <div id='KBC-lifelines'>
             <button onClick={skip} disabled = {canskip} id='skip'>Skip The question</button>
-            <button>Get the correct answer</button>
+            <button onClick={getanswer}>Get the correct answer</button>
 
         </div>
         </div>
