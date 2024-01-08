@@ -268,86 +268,84 @@ const PlanetFacts = () => {
     //functions
     const handleselect = (plan) => {
         setthought(curiosityThoughts[Math.floor(Math.random() * curiosityThoughts.length)])
-        if (plan === "Mercury"){
+        switch (plan){
+        case "Mercury":
             setplanet(plan)
             setfact(facts.mercuryFacts[Math.floor(Math.random() * facts.mercuryFacts.length)])
-        }
-        else if (plan === "Venus"){
+          break
+        case "Venus":
             setplanet(plan)
             setfact(facts.venusFacts[Math.floor(Math.random() * facts.venusFacts.length)])
-        }
-        else if (plan === "Earth"){
+          break
+        case "Earth":
             setplanet(plan)
             setfact(facts.earthFacts[Math.floor(Math.random() * facts.earthFacts.length)])
-        }
-        else if (plan === "Mars"){
+            break
+        case "Mars":
             setplanet(plan)
             setfact(facts.marsFacts[Math.floor(Math.random() * facts.marsFacts.length)])
-        }
-        else if (plan === "Jupiter"){
+            break
+        case "Jupiter":
             setplanet(plan)
             setfact(facts.jupiterFacts[Math.floor(Math.random() * facts.jupiterFacts.length)])
-        }
-        else if (plan === "Saturn"){
+            break
+        case "Saturn":
             setplanet(plan)
             setfact(facts.saturnFacts[Math.floor(Math.random() * facts.saturnFacts.length)])
-        }
-        else if (plan === "Uranus"){
+            break
+        case "Uranus":
             setplanet(plan)
             setfact(facts.uranusFacts[Math.floor(Math.random() * facts.uranusFacts.length)])
-        }
-        else if (plan === "Neptune"){
+            break
+        case "Neptune":
             setplanet(plan)
             setfact(facts.neptuneFacts[Math.floor(Math.random() * facts.neptuneFacts.length)])
-        }
-        else if (plan === "Moon"){
+            break
+        case "Moon":
             setplanet(plan)
             setfact(facts.moonFacts[Math.floor(Math.random() * facts.moonFacts.length)])
-        }
-        else if (plan === "Pluto"){
+            break
+        case "Pluto":
             setplanet(plan)
             setfact(facts.plutoFacts[Math.floor(Math.random() * facts.plutoFacts.length)])
-        }
-        else if (plan === "Eris"){
+            break
+        case "Eris":
             setplanet(plan)
             setfact(facts.erisFacts[Math.floor(Math.random() * facts.erisFacts.length)])
-        }
-        else if (plan === "MakeMake"){
+            break
+        case "MakeMake":
             setplanet(plan)
             setfact(facts.makemakeFacts[Math.floor(Math.random() * facts.makemakeFacts.length)])
-        }
-        else if (plan === "Haumea"){
+            break
+        case "Haumea":
             setplanet(plan)
             setfact(facts.haumeaFacts[Math.floor(Math.random() * facts.haumeaFacts.length)])
-        }
-        else if (plan === "Ceres"){
+            break
+        case "Ceres":
             setplanet(plan)
             setfact(facts.ceresFacts[Math.floor(Math.random() * facts.ceresFacts.length)])
-        }
-        else if (plan === "Io-Jupiter"){
+            break
+        case "Io-Jupiter":
             setplanet(plan)
             setfact(facts.ioFacts[Math.floor(Math.random() * facts.ioFacts.length)])
-        }
-        else if (plan === "Europa-Jupiter"){
+            break
+        case "Europa-Jupiter":
             setplanet(plan)
             setfact(facts.europaFacts[Math.floor(Math.random() * facts.europaFacts.length)])
-        }
-        else if (plan === "Titan-Saturn"){
+            break
+        case "Titan-Saturn":
             setplanet(plan)
             setfact(facts.titanFacts[Math.floor(Math.random() * facts.titanFacts.length)])
-        }
-        else if (plan === "Callisto-Jupiter"){
+            break
+        case "Callisto-Jupiter":
             setplanet(plan)
             setfact(facts.callistoFacts[Math.floor(Math.random() * facts.callistoFacts.length)])
-        }
-        else if (plan === "Ganymede-Jupiter"){
+            break
+        case "Ganymede-Jupiter":
             setplanet(plan)
             setfact(facts.ganymedeFacts[Math.floor(Math.random() * facts.ganymedeFacts.length)])
-        }
-        else{
-            console.log("something went wrong")
-        }
-    }
+            break  
+    }}
     
     
     //varaiables

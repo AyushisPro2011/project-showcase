@@ -8,80 +8,74 @@ const Main = () => {
   
     const handleSelectChange = (option) => {
       setSelectedOption(option);
-    };
+    ;}
   
     const handleInputChange = (event) => {
       setInputValue(event.target.value);
-    };
-  
+    ;}
+    
 useEffect(() => {
-      if (selectedOption === "Moon"){
-        setResult(inputValue * 0.165)
-      }
-      else if(selectedOption === "Mercury"){
-        setResult(inputValue * 0.3779)
-      }
-      else if (selectedOption === "Venus"){
-        setResult(inputValue * 0.9072)
-      }
-      else if (selectedOption === "Earth"){
-        setResult(inputValue * 1.0  )
-      }
-      else if (selectedOption === "Mars"){
-        setResult(inputValue * 0.3772)
-      }
-      else if (selectedOption === "Jupiter"){
-        setResult(inputValue * 2.5926)
-      }
-      else if (selectedOption === "Saturn"){
-        setResult(inputValue * 1.065)
-      }
-      else if (selectedOption === "Uranus"){
-        setResult(inputValue * 0.8865)
-      }
-      else if (selectedOption === "Neptune"){
-        setResult(inputValue * 1.137)
-      }
-      else if (selectedOption === "Pluto"){
-        setResult(inputValue * 0.0633)
-      }
-      else if (selectedOption === "Pluto"){
-        setResult(inputValue * 0.0633)
-      }
-      else if (selectedOption === "Pluto"){
-        setResult(inputValue * 0.0633)
-      }
-      else if (selectedOption === "Pluto"){
-        setResult(inputValue * 0.0633)
-      }
-      else if (selectedOption === "Eris"){
-        setResult(inputValue * 0.06)
-      }
-      else if (selectedOption === "Haumea"){
-        setResult(inputValue * 0.40)
-      }
-      else if (selectedOption === "MakeMake"){
-        setResult(inputValue * 0.05)
-      }
-      else if (selectedOption === "Ceres"){
-        setResult(inputValue * 0.027)
-      }
-      else if (selectedOption === "Ganymede-Jupiter"){
-        setResult(inputValue *0.146)
-      }
-      else if (selectedOption === "Titan-Saturn"){
-        setResult(inputValue * 0.138)
-      }
-      else if (selectedOption === "Callisto-Jupiter"){
-        setResult(inputValue * 0.126)
-      }
-      else if (selectedOption === "Io-Jupiter"){
-        setResult(inputValue * 0.183)
-      }
-      else if (selectedOption === "Europa-Jupiter"){
-        setResult(inputValue * 0.134)
-      }
-    } , [selectedOption, inputValue]);
+    switch (selectedOption) {
+
+      
+      case "Moon":
+        setResult(inputValue * 0.165);break
+      
+      case "Mercury":
+        setResult(inputValue * 0.3779);break
+      
+      case "Venus":
+        setResult(inputValue * 0.9072);break
+      
+      case "Earth":
+        setResult(inputValue * 1.0  );break
+      
+      case "Mars":
+        setResult(inputValue * 0.3772);break
+      
+      case "Jupiter":
+        setResult(inputValue * 2.5926);break
+      
+      case "Saturn":
+        setResult(inputValue * 1.065);break
+      
+      case "Uranus":
+        setResult(inputValue * 0.8865);break
+      
+      case "Neptune":
+        setResult(inputValue * 1.137);break
+      case "Pluto":
+        setResult(inputValue * 0.0633);break
+      
+      case "Eris":
+        setResult(inputValue * 0.06);break
+      
+      case "Haumea":
+        setResult(inputValue * 0.40);break
+      
+      case "MakeMake":
+        setResult(inputValue * 0.05);break
+      
+      case "Ceres":
+        setResult(inputValue * 0.027);break
+      
+      case "Ganymede-Jupiter":
+        setResult(inputValue *0.146);break
+      
+      case "Titan-Saturn":
+        setResult(inputValue * 0.138);break
+      
+      case "Callisto-Jupiter":
+        setResult(inputValue * 0.126);break
+      
+      case "Io-Jupiter":
+        setResult(inputValue * 0.183);break
+      
+      case "Europa-Jupiter":
+        setResult(inputValue * 0.134);break
+      default:
+        setResult(inputValue * 0)
+    }}, [selectedOption, inputValue]);
     return(
        <>
        <Sidebar handleButtonClick = {handleSelectChange}/> 

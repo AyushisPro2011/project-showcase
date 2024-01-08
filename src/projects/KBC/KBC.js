@@ -1053,7 +1053,7 @@ const KBC = () => {
         
         <div id='KBC-lifelines'>
             <button onClick={skip} disabled = {canskip} id='skip'>Skip The question</button>
-            <button onClick={getanswer}>Get the correct answer</button>
+            <button onClick={getanswer} id='Wiki'>Get the correct answer</button>
 
         </div>
         </div>

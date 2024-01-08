@@ -45,6 +45,7 @@
   }
   .centralbox > input:hover{
     background-color: rgba(120, 240, 256, 1.0);
+    color: green;
   }
   .centralbox > select {
     width: 80%;
