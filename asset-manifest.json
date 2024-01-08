@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Projects/static/css/main.7925b01b.css",
-    "main.js": "/React-Projects/static/js/main.26f8d94d.js",
+    "main.css": "/React-Projects/static/css/main.5a7f8f51.css",
+    "main.js": "/React-Projects/static/js/main.9862dae0.js",
     "static/js/787.ed7593ed.chunk.js": "/React-Projects/static/js/787.ed7593ed.chunk.js",
     "static/media/back-planet-facts.jpg": "/React-Projects/static/media/back-planet-facts.f2a485e760ab1f284700.jpg",
     "static/media/Pro4.png": "/React-Projects/static/media/Pro4.6578a6b00eb28111c68f.png",
@@ -26,18 +26,19 @@
     "static/media/Mars.jpg": "/React-Projects/static/media/Mars.1d6db893aa5b29486172.jpg",
     "static/media/codeback.png.jpg": "/React-Projects/static/media/codeback.png.033fb09491b0da5cf984.jpg",
     "static/media/Moon.jpg": "/React-Projects/static/media/Moon.0ec21d651596f6a24fd0.jpg",
+    "static/media/back-quote.jpg": "/React-Projects/static/media/back-quote.d523b068f3051ebe1457.jpg",
     "static/media/Io.jpg": "/React-Projects/static/media/Io.0cf6a1b1dbbbd2c83019.jpg",
     "static/media/Haumea.jpg": "/React-Projects/static/media/Haumea.cc4235c6f5a1199d6f27.jpg",
     "static/media/Neptune.jpg": "/React-Projects/static/media/Neptune.92326579dfadb64b09cc.jpg",
     "static/media/Titan.jpg": "/React-Projects/static/media/Titan.fcb13ee890f1c80b0a3d.jpg",
     "static/media/back-quiz.jpg": "/React-Projects/static/media/back-quiz.ac1590497fa267caf9c8.jpg",
     "index.html": "/React-Projects/index.html",
-    "main.7925b01b.css.map": "/React-Projects/static/css/main.7925b01b.css.map",
-    "main.26f8d94d.js.map": "/React-Projects/static/js/main.26f8d94d.js.map",
+    "main.5a7f8f51.css.map": "/React-Projects/static/css/main.5a7f8f51.css.map",
+    "main.9862dae0.js.map": "/React-Projects/static/js/main.9862dae0.js.map",
     "787.ed7593ed.chunk.js.map": "/React-Projects/static/js/787.ed7593ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7925b01b.css",
-    "static/js/main.26f8d94d.js"
+    "static/css/main.5a7f8f51.css",
+    "static/js/main.9862dae0.js"
   ]
 }
