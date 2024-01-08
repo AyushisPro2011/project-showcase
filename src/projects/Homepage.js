@@ -26,6 +26,7 @@ const Homepage = () =>{
             <Pro_Temp num = {"2"} title = {"Facts about different Planet"} logo = {Pro4logo} location = {"planet-facts"}/>
             <Pro_Temp num = {"3"} title = {"Password Generator"} logo = {Pro5logo} location = {"Password-gen"}/>
             <Pro_Temp num = {"4"} title = {"Quiz App"} logo = {Pro6logo} location = {"kbc"}/>
+            <Pro_Temp num={"5"} title={"Quotes Generator"} logo={Pro2logo} location={"Quotes"}/>
            
             </div>
         </div>

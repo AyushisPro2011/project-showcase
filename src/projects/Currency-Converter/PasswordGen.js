@@ -47,10 +47,36 @@ const PasswordGen = () => {
         return h;
     };
 
+    const copy = () =>{
+        if (/Mobi|Android/i.test(navigator.userAgent)) {
+            // Behavior for mobile devices
+            const text = document.getElementById("final").textContent;
+    const hiddenInput = document.getElementById("hiddenInput");
+
+    hiddenInput.value = text;
+    hiddenInput.focus();
+    hiddenInput.select();
+
+    try {
+      const successful = document.execCommand('copy');
+      const message = successful ? 'Quote copied!' : 'Copying failed.';
+      alert(message);
+    } catch (err) {
+      console.error('Unable to copy: ', err);
+      alert("Copying failed. Please try again.");
+    }
+    } else {
+        navigator.clipboard.writeText(document.getElementById("final").textContent)
+        alert("computer")
+    }   
+  }
+    
+
     return (
         <div id="Pass-gen-body">
             <Navbar Text={"Password Generator"} />
             <div id="gradient">
+            <input type="text" id="hiddenInput" style={{position: "absolute", left: "-9999px", opacity: 0,}}/>
                 
                 <p id="title">THE PASSWORD GENERATOR</p>
                 <div id="options">
@@ -65,6 +91,7 @@ const PasswordGen = () => {
                     <input type="number" placeholder="Characters(Max-20)" id="chars" onChange={setchar}></input>
                     <p style={{ position: "absolute", left: "60%", top: "35%", color: "whitesmoke", fontSize: "90%", background: "orange"  , width : "auto"}} id="warning">only numbers till 19 will be accepted <br/> After it , the first digits will be accepted</p>
                     <button id="execute" onClick={() => display(setpassword(option))}>Generate the password</button>
+                    <button id="Pass-copy" onClick={() =>copy()}>Copy the password</button>
                     <p id="final"></p>
                     </div>
             </div>

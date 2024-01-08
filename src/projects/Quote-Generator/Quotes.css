@@ -1,0 +1,79 @@
+#Quotes-main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../../images/back-quote.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Quotes-box{
+    border: 2px solid black;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    box-shadow: 5px 5px 30px red;
+    background-image: linear-gradient(80deg , rgba(255,165,0,0.8) , blueviolet)
+}
+#Quotes-Quote{
+    font-size: 280%;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+    font-weight:500;
+    height: 50%;
+    overflow: auto;
+    text-shadow: 1px 1px 5px yellow;
+}
+#Quotes-Author{
+    font-size: 175%;
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    top: 52%;
+    color: darkslategray;
+}
+#Quotes-gen{
+    position: absolute;
+    left: 15%;
+    width: 20%;
+    height: 20%;
+    font-size: 220%;
+    background-color:aqua;
+    color: darkred;
+    box-shadow: 2px 2px 3px darkblue;
+    top: 70%;
+}
+#Quotes-copy{
+    position: absolute;
+    left: 50%;
+    height: 20%;
+    font-size: 220%;
+    background-color: darkred;
+    color: cyan;
+    box-shadow: 2px 2px 3px darkblue;
+    top: 70%;
+}
+@media screen and (max-width:786px) {
+    #Quotes-Quote{
+        font-size: 200%;
+    }
+    #Quotes-Author{
+        position: absolute !important;
+        font-size: 120%;
+        left: 10% !important;
+        top: 60% !important;
+    }
+    #Quotes-gen{
+        position: absolute !important;
+        left: 10% !important;
+        width: 30% !important;
+        font-size: 100%;
+    }
+    #Quotes-copy{
+        position: absolute;
+        left: 50%;
+        font-size: 90%;
+        max-width: 40%;
+    }
+}

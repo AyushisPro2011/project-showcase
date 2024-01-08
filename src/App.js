@@ -8,6 +8,7 @@ import PasswordGen from './projects/Currency-Converter/PasswordGen';
 import KBC from './projects/KBC/KBC.js';
 import Win from './projects/KBC/win.js';
 import Loss from './projects/KBC/loss.js';
+import Quotes from './projects/Quote-Generator/Quotes.js';
 function App(){
   return (
     <HashRouter>
@@ -20,6 +21,7 @@ function App(){
     <Route exact path='/Password-gen' element = {<PasswordGen/>}/>
     <Route exact  path='/KBC-win' element = {<Win/>}/>
     <Route exact  path='/KBC-loss' element = {<Loss/>}/>
+    <Route exact path='/Quotes' element = {<Quotes/>}/>
 
 
     </Routes>
