@@ -33,7 +33,7 @@
 
 
 /* Mobile Layout */
-@media (max-width:786px) {
+@media screen and (max-width:786px) {
     #planet-facts-body{
         height: 120vh;
     }

@@ -1,11 +1,11 @@
 import Navbar from '../components/navbar'
-
+import '../App.css'
 const Contact = () => {
     return(
         <body style={{ background: 'linear-gradient(to right, #ff0000, #0000ff)' , width : '100vw' , height : "100vh" , textShadow : "2px 2px 15px yellow"}}>
         <Navbar Text={"Extras"}/>
-        <div style={{border : "2px solid wheat" , borderRadius : "15px" , paddingLeft : "2%"}}>
-        <p style={{color : "white" , margin : "2%"}}>
+        <div style={{border : "2px solid wheat" , borderRadius : "15px" , paddingLeft : "2%"}} id='Extras-info'>
+        <p style={{color : "darkblue" , margin : "2%"}}>
             Github repository : <a  style = {{color : "white"}} href='https://github.com/AyushisPro2011/React-Projects'>https://github.com/AyushisPro2011/React-Projects</a><br/>
             Website Production Build :  <a  style = {{color : "white"}} href='https://ayushispro2011.github.io/React-Projects/'>https://ayushispro2011.github.io/React-Projects/</a>
         </p>

@@ -39,7 +39,7 @@
 }
 
 /* Media query for mobile devices */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   #navbar {
    display:block;
    position: absolute;
@@ -106,7 +106,7 @@
 
 
 /* Sidebar */
-@media (max-width : 768px) {
+@media screen and (max-width : 768px) {
   .sidebar{
   height: 10vh !important;
   width: 95vw !important;
@@ -124,3 +124,16 @@
 
 }
 
+
+
+/* Extras section mobile */
+@media screen and (max-width:786px) {
+        body{
+          height: 120vh !important;
+        }
+  #Extras-info{
+        position: absolute;
+        top: 18vh;
+        left: 0;
+      }
+}

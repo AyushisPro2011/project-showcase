@@ -45,7 +45,7 @@
 
   /* Mobile styling */
 
-  @media (max-width:786px) {
+  @media screen and (max-width:786px) {
     #homepage{
       height: 170vh;
     }
