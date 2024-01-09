@@ -1,9 +1,10 @@
 import Navbar from "../components/navbar";
-import Pro2logo from '../images/Pro2.png';
-import Pro6logo from '../images/Pro6.png'
+import Pro1logo from '../images/Pro1.png'
+import Pro2logo from '../images/Pro2.png'
+import Pro3logo from '../images/Pro3.png'
 import Pro4logo from '../images/Pro4.png'
 import Pro5logo from '../images/Pro5.png'
-import Pro_Temp from "./Project_Template";
+import ProTemp from './Project_Template'
 
 
 import './Homepage.css'
@@ -22,11 +23,12 @@ const Homepage = () =>{
         </div>
         <div id = "projects"> 
             <h1 style={{color: "green" , textAlign : "center" ,  fontSize : "200%" , textDecoration : "underline"}}>My Projects</h1>
-            <Pro_Temp num = {"1"} title = {"Your weight on other planets"} logo = {Pro2logo} location = {"Pro"}/>
-            <Pro_Temp num = {"2"} title = {"Facts about different Planet"} logo = {Pro4logo} location = {"planet-facts"}/>
-            <Pro_Temp num = {"3"} title = {"Password Generator"} logo = {Pro5logo} location = {"Password-gen"}/>
-            <Pro_Temp num = {"4"} title = {"Quiz App"} logo = {Pro6logo} location = {"kbc"}/>
-            <Pro_Temp num={"5"} title={"Quotes Generator"} logo={Pro2logo} location={"Quotes"}/>
+            <ProTemp num = {"1"} title = {"Your weight on other planets"} logo = {Pro1logo} location = {"Pro"}/>
+            <ProTemp num = {"2"} title = {"Facts about different Planet"} logo = {Pro2logo} location = {"planet-facts"}/>
+            <ProTemp num = {"3"} title = {"Password Generator"} logo = {Pro3logo} location = {"Password-gen"}/>
+            <ProTemp num = {"4"} title = {"Quiz App"} logo = {Pro4logo} location = {"kbc"}/>
+            <ProTemp num={"5"} title={"Quotes Generator"} logo={Pro5logo} location={"Quotes"}/>
+            
            
             </div>
         </div>

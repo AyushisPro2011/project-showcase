@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react';
 import Navbar from '../../components/navbar.js'
 import './KBC.css'
-import Win from './win.js';
-import { HashRouter, Routes, useNavigate,Route } from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 
 
 

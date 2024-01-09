@@ -67,7 +67,6 @@ const PasswordGen = () => {
     }
     } else {
         navigator.clipboard.writeText(document.getElementById("final").textContent)
-        alert("computer")
     }   
   }
     

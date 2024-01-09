@@ -345,11 +345,13 @@ const PlanetFacts = () => {
             setplanet(plan)
             setfact(facts.ganymedeFacts[Math.floor(Math.random() * facts.ganymedeFacts.length)])
             break  
+        default:
+          break
     }}
     
     
     //varaiables
-    const [fact ,setfact] = useState('There are between 800 billion and 3.2 Billion PLanets in just our Milky Way Galaxy. Some scientist even estimate the number as high as 8 Billion!😯😯')
+    const [fact ,setfact] = useState('There are between 800 billion and 3.2 Billion Planets in just our Milky Way Galaxy. Some scientist even estimate the number as high as 8 Billion!😯😯')
     const [Planet , setplanet] = useState('Our Galaxy')
     
     

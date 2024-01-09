@@ -24,11 +24,12 @@
     max-width: 70vw;
 }
 #Planet-facts-mainframe{
-    transition: background-color 800ms ease,color 800ms ease;
+    transition: background-color 300ms ease , color 800ms ease;
 }
 #Planet-facts-mainframe:hover{
-    background-color: black;
-    color: lightgray;
+    background-color: grey;
+    color: darkred;
+    text-shadow: 1px 1px 5px blue;
 }
 
 

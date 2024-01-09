@@ -90,7 +90,6 @@ const Quotes = () =>{
     }
     } else {
         navigator.clipboard.writeText(quote + "-" + author)
-        alert("computer")
     }   
   
     }

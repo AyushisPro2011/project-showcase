@@ -35,6 +35,12 @@
     width: 97%;
     height: 45%;
     font-size: 250%;
+    transition: background-color 200ms ease;
+  }
+  .centralbox > p:hover{
+    background-color: rgba(128,128,128,0.8);
+    color: lightpink;
+    text-shadow: 1px 1px 5px brown;
   }
   .centralbox > input{
     width: 60%;
@@ -44,7 +50,7 @@
     transition: background-color 500ms ease;
   }
   .centralbox > input:hover{
-    background-color: rgba(120, 240, 256, 1.0);
+    background-color: orange;
     color: green;
   }
   .centralbox > select {
@@ -87,6 +93,13 @@
     border: 1px solid blue;
     color: white;
     border-radius: 50px;
+    transition: border-radius 200ms ease-out , font-size 100ms ease , text-shadow 100ms ease;
+  }
+  .sidebar > button:hover{
+    border-radius: 0px;
+    font-size: 150%;
+    color: red;
+    text-shadow:1px 1px 5px yellow;
   }
   #Mercury{
     background-image: url(../../images//Mercury.jpg);

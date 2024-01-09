@@ -22,8 +22,6 @@ function App(){
     <Route exact  path='/KBC-win' element = {<Win/>}/>
     <Route exact  path='/KBC-loss' element = {<Loss/>}/>
     <Route exact path='/Quotes' element = {<Quotes/>}/>
-
-
     </Routes>
    </HashRouter>
   );
