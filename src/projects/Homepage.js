@@ -28,6 +28,7 @@ const Homepage = () =>{
             <ProTemp num = {"3"} title = {"Password Generator"} logo = {Pro3logo} location = {"Password-gen"}/>
             <ProTemp num = {"4"} title = {"Quiz App"} logo = {Pro4logo} location = {"kbc"}/>
             <ProTemp num={"5"} title={"Quotes Generator"} logo={Pro5logo} location={"Quotes"}/>
+            <ProTemp num={"6"} title={"Wallpaper download"} logo={Pro1logo} location={"Wallpapers"}/>
             
            
             </div>
