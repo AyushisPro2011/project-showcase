@@ -16,6 +16,19 @@ import wall8 from './Images/Img8.webp'
 
 import wall9 from './Images/Img9.webp'
 
+import wall10 from './Images/Img10.webp'
+
+import wall11 from './Images/Img11.webp'
+import wall12 from './Images/Img12.webp'
+
+import wall13 from './Images/Img13.webp'
+
+import wall14 from './Images/Img14.webp'
+
+import wall15 from './Images/Img15.webp'
+
+import wall16 from './Images/Img16.webp'
+
 
 
 
@@ -60,10 +73,17 @@ const Images = () => {
         new Image(wall4, "Irina Iriser"),
         new Image(wall5 , "Katja"),
         new Image(wall6, "Lisa Fotios"),
+        new Image(wall10, "James Wheeler"),
+        new Image(wall11 , "Roberto Nickson"),
+        new Image( wall12, "Sohail Nachiti")
     ]
     const SpaceWP = [
         new Image(wall1 , "Adrien Olichon"),
-        new Image(wall8, "Pixabay")
+        new Image(wall8, "Pixabay"),
+        new Image(wall13 , "Felix Mittermeier"),
+        new Image(wall14 , "Pixabay"),
+        new Image(wall15 , "Pixabay"),
+        new Image(wall16 , "Tobias Bjorkli")
 
     ]
     const [topic , settopic] = useState(LightWP)

@@ -81,8 +81,8 @@
 
 }
 #WP-img{
-   height: 50%;
-   width: 80%;
+   max-height: 50%;
+   max-width: 80%;
    border: 2px solid white;
 }
 #WP-down{
