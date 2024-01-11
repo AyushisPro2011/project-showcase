@@ -20,14 +20,7 @@ const Wallpaper = () => {
         <div id='wallpaper-main'>
             <div id='wallpaper-gradient'>
             <Navbar Text={"Free Wallpaper download"}/>
-            <div id='wallpaper-box'>
-           <WPTemp url={"none"} author={"none"}/>
-           <WPTemp url={"none"} author={"none"}/>
-           <WPTemp url={"none"} author={"none"}/>
-           <WPTemp url={"none"} author={"none"}/>
-           <WPTemp url={"none"} author={"none"}/>
-           <WPTemp url={"none"} author={"none"}/>
-            </div>
+           <Images/>
             </div>
         </div>
     )
