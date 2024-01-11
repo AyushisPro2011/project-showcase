@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import wall1 from './Images/Img1.webp'
 import wall2 from './Images/Img2.webp'
 
@@ -40,31 +41,63 @@ class Image {
 }
 
 const Images = () => {
-    const images = [
+    const LightWP = [
+        new Image(wall4, "Irina Iriser"),
+        new Image(wall5 , "Katja"),
+        new Image(wall6, "Lisa Fotios"),
+        new Image(wall7, "Maxime Francis"),
+        
+        new Image(wall9, "Simon Berger")
+    ]
+    const DarkWP = [
         new Image(wall1 , "Adrien Olichon"),
+        new Image(wall3 , "Irina Iriser"),
+        new Image(wall8, "Pixabay"),
+    ]
+    const NatureWP = [
         new Image(wall2, "Erberhard GrossGasteiger"),
         new Image(wall3 , "Irina Iriser"),
         new Image(wall4, "Irina Iriser"),
         new Image(wall5 , "Katja"),
         new Image(wall6, "Lisa Fotios"),
-        new Image(wall7, "Maxime Francis"),
-        new Image(wall8, "Pixabay"),
-        new Image(wall9, "Simon Berger")
     ]
+    const SpaceWP = [
+        new Image(wall1 , "Adrien Olichon"),
+        new Image(wall8, "Pixabay")
+
+    ]
+    const [topic , settopic] = useState(LightWP)
+
+
+
+
+
+    
 
 
 
 
     return(
+        <>
+        <div id='WP-categories'>
+        <button id='WP-light' onClick={() => {settopic(LightWP)}}>Light</button>
+        <button id='WP-dark' onClick={() => {settopic(DarkWP)}}>Dark</button>
+        <button id='WP-nature' onClick={() => {settopic(NatureWP)}}>Nature</button>
+        <button id='WP-space' onClick={() => {settopic(SpaceWP)}}>Space</button>
+
+        </div>
+
         <div id='wallpaper-box'>
         {
-            images.map((x) => (
+            
+            topic.map((x) => (
                 <>
                 <WPTemp author={x.author} url={x.src}></WPTemp>
                 </>
             ))
         }
         </div>
+        </>
     )
    
     

@@ -1,4 +1,3 @@
-import Compress from './Images/Compressed.png'
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import './Wallpaper.css'
 
@@ -16,9 +15,9 @@ const download = () => {
 
     return(
         <div id="WP-main">
-            <LazyLoadImage src={url} alt="lol" id="WP-img" placeholderSrc={Compress}/>
+            <LazyLoadImage src={url} alt="lol" id="WP-img"/>
             <h1 id="WP-author">By - {author}</h1>
-            <button onClick={download}>Download</button>
+            <button onClick={download} id='WP-down'>Download Wallpaper</button>
         </div>
         
     )

@@ -1,6 +1,5 @@
 import './Wallpaper.css'
 import Navbar from '../../components/navbar'
-import WPTemp from './WP-Template'
 import Images from './Images'
 
 
