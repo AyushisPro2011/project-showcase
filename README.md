@@ -15,6 +15,6 @@ Images: Free images on [Unsplash](https://unsplash.com)
  Both branches , the github pages branch and main branch are available for anyone to observe but cannot be contributed to.
 
 ## Motive
-These projects were created by me to practice frontend-dev and UI/UX design as a beginner but i thought of hosting the repository for anyne to see.
+These projects were created by me to practice frontend-dev and UI/UX design as a beginner but i thought of hosting the repository for anyone to see.
 
 # Thanks for visiting this repo
