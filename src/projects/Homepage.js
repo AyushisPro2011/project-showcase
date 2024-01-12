@@ -4,6 +4,10 @@ import Pro2logo from '../images/Pro2.png'
 import Pro3logo from '../images/Pro3.png'
 import Pro4logo from '../images/Pro4.png'
 import Pro5logo from '../images/Pro5.png'
+import Pro6logo from '../images/Pro6.png'
+
+
+
 import ProTemp from './Project_Template'
 
 
@@ -28,7 +32,7 @@ const Homepage = () =>{
             <ProTemp num = {"3"} title = {"Password Generator"} logo = {Pro3logo} location = {"Password-gen"}/>
             <ProTemp num = {"4"} title = {"Quiz App"} logo = {Pro4logo} location = {"kbc"}/>
             <ProTemp num={"5"} title={"Quotes Generator"} logo={Pro5logo} location={"Quotes"}/>
-            <ProTemp num={"6"} title={"Wallpaper download"} logo={Pro1logo} location={"Wallpapers"}/>
+            <ProTemp num={"6"} title={"Wallpaper download"} logo={Pro6logo} location={"Wallpapers"}/>
             
            
             </div>

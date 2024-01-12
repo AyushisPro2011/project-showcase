@@ -1,4 +1,6 @@
 import { useState } from 'react'
+
+//importing pictures
 import wall1 from './Images/Img1.webp'
 import wall2 from './Images/Img2.webp'
 
@@ -19,9 +21,8 @@ import wall9 from './Images/Img9.webp'
 import wall10 from './Images/Img10.webp'
 
 import wall11 from './Images/Img11.webp'
-import wall12 from './Images/Img12.webp'
 
-import wall13 from './Images/Img13.webp'
+import wall12 from './Images/Img12.webp'
 
 import wall14 from './Images/Img14.webp'
 
@@ -29,21 +30,15 @@ import wall15 from './Images/Img15.webp'
 
 import wall16 from './Images/Img16.webp'
 
-
-
-
-
-
-
-
-
+import wall17 from './Images/Img17.webp'
+import wall18 from './Images/Img18.webp'
 
 
 
 import WPTemp from './WP-Template';
 import './Wallpaper.css'
 
-
+//image class
 class Image {
     src;
     author;
@@ -53,19 +48,24 @@ class Image {
     }
 }
 
+
+//main method
 const Images = () => {
+    //image inits
+    
     const LightWP = [
         new Image(wall4, "Irina Iriser"),
         new Image(wall5 , "Katja"),
         new Image(wall6, "Lisa Fotios"),
         new Image(wall7, "Maxime Francis"),
-        
         new Image(wall9, "Simon Berger")
     ]
     const DarkWP = [
         new Image(wall1 , "Adrien Olichon"),
         new Image(wall3 , "Irina Iriser"),
         new Image(wall8, "Pixabay"),
+        new Image(wall17 , "Instawalli"),
+        new Image(wall18 , "Mo-eid")
     ]
     const NatureWP = [
         new Image(wall2, "Erberhard GrossGasteiger"),
@@ -80,12 +80,12 @@ const Images = () => {
     const SpaceWP = [
         new Image(wall1 , "Adrien Olichon"),
         new Image(wall8, "Pixabay"),
-        new Image(wall13 , "Felix Mittermeier"),
         new Image(wall14 , "Pixabay"),
         new Image(wall15 , "Pixabay"),
         new Image(wall16 , "Tobias Bjorkli")
 
     ]
+    //usestate
     const [topic , settopic] = useState(LightWP)
 
 

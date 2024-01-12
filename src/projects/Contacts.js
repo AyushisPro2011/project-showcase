@@ -19,7 +19,7 @@ const Contact = () => {
         <li>CSS<br/></li>
         <li>React.js :<a  style = {{color : "white"}} href='https://react.dev/'>https://react.dev/</a><br/></li>
         <li>Git (Version Control System) :<a  style = {{color : "white"}} href='https://git-scm.com/'>https://git-scm.com/</a><br/></li>
-        <li> Special Thanks to  Unsplash for providing all the images:   <a style={{color: 'white'}} href='https://unsplash.com'>https://unsplash.com</a>          </li>
+        <li> Special Thanks to  Unsplash and pexels for providing all the images:   <a style={{color: 'white'}} href='https://unsplash.com'>https://unsplash.com</a>    <a style={{color: 'white'}} href='https://pexels.com'>https://pexels.com</a>          </li>
         </ul>
         <p>Created by Me(All of the code was written by me)</p>
         <p>Some ideas given by Tirth and Hriday (8th class)</p>
