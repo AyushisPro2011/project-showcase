@@ -33,6 +33,7 @@ const Homepage = () =>{
             <ProTemp num = {"4"} title = {"Quiz App"} logo = {Pro4logo} location = {"kbc"}/>
             <ProTemp num={"5"} title={"Quotes Generator"} logo={Pro5logo} location={"Quotes"}/>
             <ProTemp num={"6"} title={"Wallpaper download"} logo={Pro6logo} location={"Wallpapers"}/>
+            <ProTemp num={"7"} title={"Word Unscramble"} logo={Pro6logo} location={"Scramble"}/>
             </div>
         </div>
     )
