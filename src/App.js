@@ -11,6 +11,8 @@ import Loss from './projects/KBC/loss.js';
 import Quotes from './projects/Quote-Generator/Quotes.js';
 import Wallpaper from './projects/Wallpaper/Wallpaper.js';
 import Scramble from './projects/Scramble/Scramble.js';
+import ScramWin from './projects/Scramble/Scram-win.js';
+import ScramLoss from './projects/Scramble/Scram-loss.js';
 function App(){
   return (
     <HashRouter>
@@ -26,6 +28,8 @@ function App(){
     <Route exact path='/Quotes' element = {<Quotes/>}/>
     <Route exact path='/Wallpapers' element = {<Wallpaper/>}/>
     <Route exact path='Scramble' element = {<Scramble/>}/>
+    <Route exact path='/Scram-win' element = {<ScramWin/>}/>
+    <Route exact path='/Scram-loss' element = {<ScramLoss/>}/>
     </Routes>
    </HashRouter>
   );
