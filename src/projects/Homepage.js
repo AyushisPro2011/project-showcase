@@ -5,6 +5,7 @@ import Pro3logo from '../images/Pro3.png'
 import Pro4logo from '../images/Pro4.png'
 import Pro5logo from '../images/Pro5.png'
 import Pro6logo from '../images/Pro6.png'
+import Pro7logo from '../images/Pro7.png'
 
 
 
@@ -33,7 +34,7 @@ const Homepage = () =>{
             <ProTemp num = {"4"} title = {"Quiz App"} logo = {Pro4logo} location = {"kbc"}/>
             <ProTemp num={"5"} title={"Quotes Generator"} logo={Pro5logo} location={"Quotes"}/>
             <ProTemp num={"6"} title={"Wallpaper download"} logo={Pro6logo} location={"Wallpapers"}/>
-            <ProTemp num={"7"} title={"Word Unscramble"} logo={Pro6logo} location={"Scramble"}/>
+            <ProTemp num={"7"} title={"Word Unscramble"} logo={Pro7logo} location={"Scramble"}/>
             </div>
         </div>
     )
