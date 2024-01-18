@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/project-showcase/static/css/main.97a4b2ab.css",
-    "main.js": "/project-showcase/static/js/main.3a849fa1.js",
+    "main.css": "/project-showcase/static/css/main.2e344843.css",
+    "main.js": "/project-showcase/static/js/main.4693d2c4.js",
     "static/js/787.ed7593ed.chunk.js": "/project-showcase/static/js/787.ed7593ed.chunk.js",
     "static/media/Pro1.png": "/project-showcase/static/media/Pro1.9d6d35cb2900a7cab0ea.png",
     "static/media/Pro2.png": "/project-showcase/static/media/Pro2.24b42241e95acab103e6.png",
@@ -45,21 +45,21 @@
     "static/media/Callisto.jpg": "/project-showcase/static/media/Callisto.a9d0a2660593e3b87430.jpg",
     "static/media/Img15.webp": "/project-showcase/static/media/Img15.4711f43d1d2829a607ed.webp",
     "static/media/Mars.jpg": "/project-showcase/static/media/Mars.1d6db893aa5b29486172.jpg",
-    "static/media/codeback.png.jpg": "/project-showcase/static/media/codeback.png.033fb09491b0da5cf984.jpg",
     "static/media/Moon.jpg": "/project-showcase/static/media/Moon.0ec21d651596f6a24fd0.jpg",
     "static/media/back-quote.jpg": "/project-showcase/static/media/back-quote.d523b068f3051ebe1457.jpg",
     "static/media/Io.jpg": "/project-showcase/static/media/Io.0cf6a1b1dbbbd2c83019.jpg",
     "static/media/Haumea.jpg": "/project-showcase/static/media/Haumea.cc4235c6f5a1199d6f27.jpg",
     "static/media/Neptune.jpg": "/project-showcase/static/media/Neptune.92326579dfadb64b09cc.jpg",
+    "static/media/codeback.png.jpg": "/project-showcase/static/media/codeback.png.82091947604bfde7e413.jpg",
     "static/media/Titan.jpg": "/project-showcase/static/media/Titan.fcb13ee890f1c80b0a3d.jpg",
     "static/media/back-quiz.jpg": "/project-showcase/static/media/back-quiz.ac1590497fa267caf9c8.jpg",
     "index.html": "/project-showcase/index.html",
-    "main.97a4b2ab.css.map": "/project-showcase/static/css/main.97a4b2ab.css.map",
-    "main.3a849fa1.js.map": "/project-showcase/static/js/main.3a849fa1.js.map",
+    "main.2e344843.css.map": "/project-showcase/static/css/main.2e344843.css.map",
+    "main.4693d2c4.js.map": "/project-showcase/static/js/main.4693d2c4.js.map",
     "787.ed7593ed.chunk.js.map": "/project-showcase/static/js/787.ed7593ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97a4b2ab.css",
-    "static/js/main.3a849fa1.js"
+    "static/css/main.2e344843.css",
+    "static/js/main.4693d2c4.js"
   ]
 }
