@@ -1,18 +1,18 @@
 import './App.css';
-import Pro1 from './projects/weight-calculator/Pro1'
-import Homepage from './projects/Homepage';
+import Pro1 from './apps/weight-calculator/Pro1'
+import Homepage from './apps/Homepage';
 import { HashRouter, Route, Routes } from 'react-router-dom';
-import PlanetFacts from './projects/Planet-facts/Planet-facts.js';
-import Contact from './projects/Contacts';
-import PasswordGen from './projects/Currency-Converter/PasswordGen';
-import KBC from './projects/KBC/KBC.js';
-import Win from './projects/KBC/win.js';
-import Loss from './projects/KBC/loss.js';
-import Quotes from './projects/Quote-Generator/Quotes.js';
-import Wallpaper from './projects/Wallpaper/Wallpaper.js';
-import Scramble from './projects/Scramble/Scramble.js';
-import ScramWin from './projects/Scramble/Scram-win.js';
-import ScramLoss from './projects/Scramble/Scram-loss.js';
+import PlanetFacts from './apps/Planet-facts/Planet-facts.js';
+import Contact from './apps/Contacts';
+import PasswordGen from './apps/Currency-Converter/PasswordGen';
+import KBC from './apps/KBC/KBC.js';
+import Win from './apps/KBC/win.js';
+import Loss from './apps/KBC/loss.js';
+import Quotes from './apps/Quote-Generator/Quotes.js';
+import Wallpaper from './apps/Wallpaper/Wallpaper.js';
+import Scramble from './apps/Scramble/Scramble.js';
+import ScramWin from './apps/Scramble/Scram-win.js';
+import ScramLoss from './apps/Scramble/Scram-loss.js';
 function App(){
   return (
     <HashRouter>

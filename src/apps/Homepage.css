@@ -1,0 +1,107 @@
+#homepage{
+    background-image: url(../images/codeback.png.jpg);
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    height: 190vh;
+  }
+  #homepage > #intro_text{
+    color: darkred;
+    text-shadow: 1px 1px 1px cyan;
+    opacity: 1.0;
+   width: 80% ;
+   left: 10%;  
+   position: absolute;
+   top: 18%;
+   box-shadow: -7px 7px 7px orange;
+    margin: 1%;
+    background-image: linear-gradient(90deg , rgba(0,256,0,0.5), blue);
+    
+    resize: none; 
+    max-height: 70%;
+    overflow:auto;
+  }
+  #homepage > #intro_text > #start{
+    font-size: 400%;
+    text-align: center;
+    font-weight: 600;
+    
+  }
+  #homepage > #intro_text > #start > #text {
+    color: darkgoldenrod;
+    text-shadow: 2px 2px 1px brown;
+    font-size: 70%;
+    font-weight: 500;
+  }
+  #homepage > #web-projects{
+    opacity: 1.0;
+    border: 2px solid blue;
+    overflow: auto;
+    width: 30%;
+    height: 75vh;
+    position: absolute;
+    left: 1%;
+    top: 100%;
+    padding: 1%;
+    background-image: linear-gradient(90deg , rgba(255,192,203,0.8) ,rgba(0,0,0,0.5));
+    box-shadow: 2px 2px 2px blue;
+  }
+  #homepage > #app-projects{
+    opacity: 1.0;
+    border: 2px solid white;
+    overflow: auto;
+    width: 28%;
+    height: 75vh;
+    position: absolute;
+    left: 34%;
+    top: 100%;
+    padding: 1%;
+    background-image: linear-gradient(90deg , rgba(255,125,50,0.8) ,rgba(0,0,0,0.5));
+    box-shadow: 2px 2px 2px blue;
+  }
+  #homepage > #idk-projects{
+    opacity: 1.0;
+    border: 2px solid white;
+    overflow: auto;
+    width: 30%;
+    height: 75vh;
+    position: absolute;
+    left: 65%;
+    top: 100%;
+    padding: 1%;
+    background-image: linear-gradient(90deg , rgba(255,125,50,0.8) ,rgba(0,0,0,0.5));
+    box-shadow: 2px 2px 2px blue;
+  }
+
+
+
+  /* Mobile styling */
+
+  @media screen and (max-width:786px) {
+    #homepage{
+      height: 170vh;
+    }
+    #intro_text{
+      width: 95vw !important;
+      font-size: 65%;
+      left: 1% !important;
+    }
+    #web-projects{
+      position: absolute;
+      top: 90vh !important;
+      left: 1vw !important;
+      min-width: 95vw !important;
+    }
+    #app-projects{
+      top: 175vh !important;
+      left: 1% !important;
+      width: 95% !important;
+    }
+    #idk-projects{
+      top : 260vh !important;
+      left: 1% !important;
+      width: 95vw !important;
+    }
+  }
+
+  
