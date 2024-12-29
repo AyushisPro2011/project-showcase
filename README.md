@@ -1,6 +1,9 @@
-# Project by Ayush Gupta
+### NOTE:
+- This was a project created by a very young me when i started learning computer science and especially web devlopment.
+- I have hosted this project on github-pages and the repo is public just so i can see where i started from and this is not any actual project, just a fun little memory of the past when i didnt know too muh about programming and tried to create something with what i knew
 
-This project was created by Me using React , JavaScript , JSX and Node.js. The production build is hosted on Github pages 
+# Project By Ayush Gupta
+This project was created by younger Me using React , JavaScript , JSX and Node.js. The production build is hosted on Github pages 
  [The site](https://ayushispro2011.github.io/React-Projects)
 
 ## Utilities used
